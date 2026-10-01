@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 3,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20264401,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.25,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          34.0,
+          37.0,
+          756.0,
+          92.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          545.0,
+          425.0,
+          999.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "A jar of mineral powder with a brush inside, and a close-up of a woman's face with makeup applied."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          459.0,
+          773.0,
+          951.0,
+          900.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "CLAIM FREE SAMPLE | Click HERE"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 95.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' introduces the brand's promise. The product image (mineral powder and model) visually represents the product. The clear call-to-action 'CLAIM FREE SAMPLE' directs the user to take action. The message is clear, product identity is strong, and the action is unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 25, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [34,37,756,92], \"confidence\": 0.98, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [0,545,425,999], \"confidence\": 0.95, \"text_or_description\": \"A jar of mineral powder with a brush inside, and a close-up of a woman's face with makeup applied.\"},\n    \"C\": {\"present\": true, \"bbox\": [459,773,951,900], \"confidence\": 0.97, \"text_or_description\": \"CLAIM FREE SAMPLE | Click HERE\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 95,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' introduces the brand's promise. The product image (mineral powder and model) visually represents the product. The clear call-to-action 'CLAIM FREE SAMPLE' directs the user to take action. The message is clear, product identity is strong, and the action is unambiguous.\"\n}"
+}

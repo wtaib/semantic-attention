@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 4,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20265413,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          67.0,
+          26.0,
+          821.0,
+          240.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "$0, only Free coffee $100"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          110.0,
+          297.0,
+          485.0,
+          825.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Black coffee cup with 'BRUEG BAG' branding"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          345.0,
+          435.0,
+          655.0,
+          705.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW'"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 90.0,
+    "product_identity": 85.0,
+    "action_clarity": 80.0,
+    "rationale_short": "The headline immediately grabs attention with the value proposition. The product (coffee cup) is clearly visible to identify the brand. The call-to-action is prominent and direct, guiding the viewer to claim the offer."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [67, 26, 821, 240], \"confidence\": 0.95, \"text_or_description\": \"$0, only Free coffee $100\"},\n    \"P\": {\"present\": true, \"bbox\": [110, 297, 485, 825], \"confidence\": 0.98, \"text_or_description\": \"Black coffee cup with 'BRUEG BAG' branding\"},\n    \"C\": {\"present\": true, \"bbox\": [345, 435, 655, 705], \"confidence\": 0.97, \"text_or_description\": \"Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW'\"},\n    \"O\": {\"present\": true, \"bbox\": [455, 785, 950, 915], \"confidence\": 0.92, \"text_or_description\": \"Text describing event details and conditions\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 90,\n  \"product_identity\": 85,\n  \"action_clarity\": 80,\n  \"rationale_short\": \"The headline immediately grabs attention with the value proposition. The product (coffee cup) is clearly visible to identify the brand. The call-to-action is prominent and direct, guiding the viewer to claim the offer.\"\n}"
+}

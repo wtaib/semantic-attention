@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 1,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20262413,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          68.0,
+          180.0,
+          437.0,
+          580.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A 3-DAY SALE EVENT DRESSES START AT"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          457.0,
+          95.0,
+          1000,
+          999.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Two women wearing dresses"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          50.0,
+          905.0,
+          400.0,
+          975.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "SHOP NOW"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline clearly states the sale proposition, the product (dresses) is visually represented by the models, and the CTA directs to shop. The visual hierarchy supports this sequence."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [68, 180, 437, 580], \"confidence\": 0.98, \"text_or_description\": \"A 3-DAY SALE EVENT DRESSES START AT\"},\n    \"P\": {\"present\": true, \"bbox\": [457, 95, 1000, 999], \"confidence\": 0.97, \"text_or_description\": \"Two women wearing dresses\"},\n    \"C\": {\"present\": true, \"bbox\": [50, 905, 400, 975], \"confidence\": 0.99, \"text_or_description\": \"SHOP NOW\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline clearly states the sale proposition, the product (dresses) is visually represented by the models, and the CTA directs to shop. The visual hierarchy supports this sequence.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 8,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 0,
+  "seed": 20269011,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          148.0,
+          14.0,
+          875.0,
+          167.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Oh yes, it's FREE Tuesday, April 8th between 2-5pm"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          140.0,
+          310.0,
+          958.0,
+          875.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Four iced beverages in branded cups on a wooden tray"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          10.0,
+          680.0,
+          365.0,
+          975.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The headline immediately states the offer is free and specifies the date/time, establishing the proposition. The product is clearly shown as iced beverages in branded cups, identifying the brand and item. The call-to-action in the red circle explicitly tells the customer what to enjoy and where to go (participating cafés), completing the persuasive funnel."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [148, 14, 875, 167], \"confidence\": 0.95, \"text_or_description\": \"Oh yes, it's FREE Tuesday, April 8th between 2-5pm\"},\n    \"P\": {\"present\": true, \"bbox\": [140, 310, 958, 875], \"confidence\": 0.98, \"text_or_description\": \"Four iced beverages in branded cups on a wooden tray\"},\n    \"C\": {\"present\": true, \"bbox\": [10, 680, 365, 975], \"confidence\": 0.92, \"text_or_description\": \"Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The headline immediately states the offer is free and specifies the date/time, establishing the proposition. The product is clearly shown as iced beverages in branded cups, identifying the brand and item. The call-to-action in the red circle explicitly tells the customer what to enjoy and where to go (participating cafés), completing the persuasive funnel.\"\n}"
+}

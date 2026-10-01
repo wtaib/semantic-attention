@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 6,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 1,
+  "seed": 20267402,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.5,
+      "P": 0.3,
+      "C": 0.15,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          43.0,
+          65.0,
+          609.0,
+          874.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE with any purchase."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          565.0,
+          0,
+          1000,
+          546.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "A partially eaten chocolate chip cookie."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          329.0,
+          895.0,
+          616.0,
+          980.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "FIND QUIZINOS button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 85.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion (free cookie on Dec 4th), the product (oven-toasted cookie) is visually prominent, and the call-to-action directs users to find Quiznos. The message is clear, product identity is strong, and action is explicit."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 50, \"P\": 30, \"C\": 15, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [43, 65, 609, 874], \"confidence\": 0.98, \"text_or_description\": \"Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE with any purchase.\"},\n    \"P\": {\"present\": true, \"bbox\": [565, 0, 1000, 546], \"confidence\": 0.95, \"text_or_description\": \"A partially eaten chocolate chip cookie.\"},\n    \"C\": {\"present\": true, \"bbox\": [329, 895, 616, 980], \"confidence\": 0.97, \"text_or_description\": \"FIND QUIZINOS button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 85,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion (free cookie on Dec 4th), the product (oven-toasted cookie) is visually prominent, and the call-to-action directs users to find Quiznos. The message is clear, product identity is strong, and action is explicit.\"\n}"
+}

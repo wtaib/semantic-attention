@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 7,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20268113,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          450.0,
+          65.0,
+          960.0,
+          275.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "HARDEES. MYHANCH LUGSIRLD CX.S!"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          400.0,
+          370.0,
+          980.0,
+          635.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "Double cheeseburger with sesame bun, fries, hot dog, and soda."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          580.0,
+          620.0,
+          920.0,
+          950.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 70.0,
+    "product_identity": 80.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The headline introduces the deal, the product visuals show the meal components, and the price is the clear call-to-action. The message is mostly clear but the headline is garbled, reducing clarity."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [450, 65, 960, 275], \"confidence\": 0.9, \"text_or_description\": \"HARDEES. MYHANCH LUGSIRLD CX.S!\"},\n    \"P\": {\"present\": true, \"bbox\": [400, 370, 980, 635], \"confidence\": 0.9, \"text_or_description\": \"Double cheeseburger with sesame bun, fries, hot dog, and soda.\"},\n    \"C\": {\"present\": true, \"bbox\": [580, 620, 920, 950], \"confidence\": 0.9, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 70,\n  \"product_identity\": 80,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The headline introduces the deal, the product visuals show the meal components, and the price is the clear call-to-action. The message is mostly clear but the headline is garbled, reducing clarity.\"\n}"
+}

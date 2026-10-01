@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 1,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20262022,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.35,
+      "C": 0.2,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          60.0,
+          150.0,
+          420.0,
+          340.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "3 Days of Dress Deals Day Three"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          460.0,
+          100.0,
+          990.0,
+          990.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two women wearing dresses"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          30.0,
+          950.0,
+          270.0,
+          990.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "SHOP NOW"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline '3 Days of Dress Deals Day Three' is prominent at the top, followed by the product image of two women in dresses. The call-to-action 'SHOP NOW' is placed at the bottom for easy access. The price and date are secondary but still visible."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 35, \"C\": 20, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [60, 150, 420, 340], \"confidence\": 0.95, \"text_or_description\": \"3 Days of Dress Deals Day Three\"},\n    \"P\": {\"present\": true, \"bbox\": [460, 100, 990, 990], \"confidence\": 0.98, \"text_or_description\": \"Two women wearing dresses\"},\n    \"C\": {\"present\": true, \"bbox\": [30, 950, 270, 990], \"confidence\": 0.92, \"text_or_description\": \"SHOP NOW\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline '3 Days of Dress Deals Day Three' is prominent at the top, followed by the product image of two women in dresses. The call-to-action 'SHOP NOW' is placed at the bottom for easy access. The price and date are secondary but still visible.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 8,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20269022,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          144.0,
+          11.0,
+          875.0,
+          168.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Oh yes, it's FREE Tuesday, April 8th between 2-5pm"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          138.0,
+          222.0,
+          961.0,
+          872.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Four iced beverages in branded cups on a wooden tray"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          10.0,
+          675.0,
+          370.0,
+          975.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline grabs attention with 'FREE', the product imagery is central and clear, and the call-to-action explicitly states the offer. The hierarchy is designed for quick comprehension: offer → product → action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [144, 11, 875, 168], \"confidence\": 0.95, \"text_or_description\": \"Oh yes, it's FREE Tuesday, April 8th between 2-5pm\"},\n    \"P\": {\"present\": true, \"bbox\": [138, 222, 961, 872], \"confidence\": 0.98, \"text_or_description\": \"Four iced beverages in branded cups on a wooden tray\"},\n    \"C\": {\"present\": true, \"bbox\": [10, 675, 370, 975], \"confidence\": 0.92, \"text_or_description\": \"Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline grabs attention with 'FREE', the product imagery is central and clear, and the call-to-action explicitly states the offer. The hierarchy is designed for quick comprehension: offer → product → action.\"\n}"
+}

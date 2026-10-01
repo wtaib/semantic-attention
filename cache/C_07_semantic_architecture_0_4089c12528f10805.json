@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 7,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20268201,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.45,
+      "C": 0.25,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          464.0,
+          47.0,
+          964.0,
+          312.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          419.0,
+          335.0,
+          992.0,
+          601.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Double cheeseburger with toppings, chili dog, baked roll, and fries with Coca-Cola"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          507.0,
+          857.0,
+          983.0,
+          975.0
+        ],
+        "confidence": 0.96,
+        "text_or_description": "GRAB THE BIG BAG DEAL"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline 'BIG BAG LUNCH' clearly states the offer, the product visuals (burger, fries, hot dog, drink) show the meal components, and the call-to-action 'GRAB THE BIG BAG DEAL' directs the consumer to act. The message is direct and unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 45, \"C\": 25, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [464, 47, 964, 312], \"confidence\": 0.98, \"text_or_description\": \"BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [419, 335, 992, 601], \"confidence\": 0.97, \"text_or_description\": \"Double cheeseburger with toppings, chili dog, baked roll, and fries with Coca-Cola\"},\n    \"C\": {\"present\": true, \"bbox\": [507, 857, 983, 975], \"confidence\": 0.96, \"text_or_description\": \"GRAB THE BIG BAG DEAL\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline 'BIG BAG LUNCH' clearly states the offer, the product visuals (burger, fries, hot dog, drink) show the meal components, and the call-to-action 'GRAB THE BIG BAG DEAL' directs the consumer to act. The message is direct and unambiguous.\"\n}"
+}

@@ -1,0 +1,99 @@
+condition,image_id,n_rows,n_participants,n_qc_pass,n_qc_fail,expected_n_participants,participant_count_ok,all_rows_qc_pass,cell_qc_error_reason
+A,1,20,20,19,1,20,True,False,1 participant row(s) failed QC
+A,2,21,21,21,0,20,False,True,participant count 21 != expected 20
+A,3,20,20,20,0,20,True,True,
+A,4,21,21,21,0,20,False,True,participant count 21 != expected 20
+A,5,20,20,20,0,20,True,True,
+A,6,20,20,20,0,20,True,True,
+A,7,21,21,21,0,20,False,True,participant count 21 != expected 20
+A,8,20,20,20,0,20,True,True,
+A,9,20,20,20,0,20,True,True,
+A,10,19,19,19,0,20,False,True,participant count 19 != expected 20
+A,11,20,20,20,0,20,True,True,
+A,12,20,20,20,0,20,True,True,
+A,13,20,20,20,0,20,True,True,
+A,14,20,20,20,0,20,True,True,
+A,15,20,20,20,0,20,True,True,
+A,16,21,21,21,0,20,False,True,participant count 21 != expected 20
+A,17,20,20,20,0,20,True,True,
+A,18,20,20,20,0,20,True,True,
+A,19,20,20,20,0,20,True,True,
+A,20,20,20,20,0,20,True,True,
+B,1,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,2,20,20,20,0,20,True,True,
+B,3,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,4,20,20,20,0,20,True,True,
+B,5,20,20,20,0,20,True,True,
+B,6,20,20,20,0,20,True,True,
+B,7,20,20,20,0,20,True,True,
+B,8,20,20,20,0,20,True,True,
+B,9,20,20,20,0,20,True,True,
+B,10,20,20,20,0,20,True,True,
+B,11,20,20,20,0,20,True,True,
+B,12,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,13,20,20,20,0,20,True,True,
+B,14,20,20,20,0,20,True,True,
+B,15,20,20,20,0,20,True,True,
+B,16,20,20,20,0,20,True,True,
+B,17,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,18,20,20,20,0,20,True,True,
+B,19,20,20,20,0,20,True,True,
+B,20,21,21,21,0,20,False,True,participant count 21 != expected 20
+C,1,20,20,20,0,20,True,True,
+C,2,20,20,20,0,20,True,True,
+C,3,20,20,20,0,20,True,True,
+C,4,20,20,20,0,20,True,True,
+C,5,21,21,21,0,20,False,True,participant count 21 != expected 20
+C,6,20,20,20,0,20,True,True,
+C,7,21,21,21,0,20,False,True,participant count 21 != expected 20
+C,8,20,20,20,0,20,True,True,
+C,9,19,19,19,0,20,False,True,participant count 19 != expected 20
+C,10,20,20,20,0,20,True,True,
+C,11,20,20,20,0,20,True,True,
+C,12,20,20,20,0,20,True,True,
+C,13,20,20,20,0,20,True,True,
+C,14,20,20,20,0,20,True,True,
+C,15,20,20,20,0,20,True,True,
+C,16,21,21,21,0,20,False,True,participant count 21 != expected 20
+C,17,20,20,20,0,20,True,True,
+C,18,20,20,20,0,20,True,True,
+C,19,20,20,20,0,20,True,True,
+C,20,20,20,20,0,20,True,True,
+D,1,20,20,20,0,20,True,True,
+D,2,20,20,20,0,20,True,True,
+D,3,20,20,20,0,20,True,True,
+D,4,20,20,20,0,20,True,True,
+D,6,21,21,21,0,20,False,True,participant count 21 != expected 20
+D,7,19,19,19,0,20,False,True,participant count 19 != expected 20
+D,8,20,20,20,0,20,True,True,
+D,9,20,20,20,0,20,True,True,
+D,10,20,20,20,0,20,True,True,
+D,11,20,20,20,0,20,True,True,
+D,12,20,20,20,0,20,True,True,
+D,13,20,20,20,0,20,True,True,
+D,14,20,20,20,0,20,True,True,
+D,15,20,20,20,0,20,True,True,
+D,16,19,19,19,0,20,False,True,participant count 19 != expected 20
+D,17,19,19,19,0,20,False,True,participant count 19 != expected 20
+D,18,21,21,21,0,20,False,True,participant count 21 != expected 20
+D,19,20,20,20,0,20,True,True,
+D,20,21,21,21,0,20,False,True,participant count 21 != expected 20
+E,1,20,20,20,0,20,True,True,
+E,2,20,20,20,0,20,True,True,
+E,3,20,20,20,0,20,True,True,
+E,4,20,20,20,0,20,True,True,
+E,5,20,20,20,0,20,True,True,
+E,6,19,19,19,0,20,False,True,participant count 19 != expected 20
+E,7,20,20,20,0,20,True,True,
+E,8,19,19,19,0,20,False,True,participant count 19 != expected 20
+E,9,20,20,20,0,20,True,True,
+E,10,20,20,20,0,20,True,True,
+E,11,20,20,20,0,20,True,True,
+E,12,20,20,20,0,20,True,True,
+E,13,20,20,20,0,20,True,True,
+E,14,21,21,21,0,20,False,True,participant count 21 != expected 20
+E,15,20,20,20,0,20,True,True,
+E,16,20,20,20,0,20,True,True,
+E,17,20,20,20,0,20,True,True,
+E,19,21,21,21,0,20,False,True,participant count 21 != expected 20
+E,20,20,20,20,0,20,True,True,

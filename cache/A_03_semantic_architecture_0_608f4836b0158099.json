@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 3,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20264001,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.3,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          25.0,
+          25.0,
+          750.0,
+          95.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          615.0,
+          415.0,
+          975.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A jar of mineral powder with a brush inside, showing the product visually."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          475.0,
+          745.0,
+          900.0,
+          920.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "A blue button with 'Click HERE' text, serving as the primary call-to-action."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 95.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' introduces the benefit, the product image (powder jar and brush) visually identifies the item, and the 'Click HERE' button clearly directs the user to take action. The message is clear, the product is identifiable, and the action is unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 30, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [25, 25, 750, 95], \"confidence\": 0.95, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 615, 415, 975], \"confidence\": 0.98, \"text_or_description\": \"A jar of mineral powder with a brush inside, showing the product visually.\"},\n    \"C\": {\"present\": true, \"bbox\": [475, 745, 900, 920], \"confidence\": 0.97, \"text_or_description\": \"A blue button with 'Click HERE' text, serving as the primary call-to-action.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 95,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' introduces the benefit, the product image (powder jar and brush) visually identifies the item, and the 'Click HERE' button clearly directs the user to take action. The message is clear, the product is identifiable, and the action is unambiguous.\"\n}"
+}

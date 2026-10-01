@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 6,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 2,
+  "seed": 20267023,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          37.0,
+          59.0,
+          617.0,
+          827.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE with any purchase."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          563.0,
+          0,
+          1000,
+          552.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "A large chocolate chip cookie with a bite taken out of it."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          360.0,
+          911.0,
+          605.0,
+          972.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "A red button with white text reading 'FIND QUIZNOS'."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline is the most prominent element, followed by the product image (cookie) and then the call-to-action button. The message is clear, the product is identifiable, and the action (finding Quiznos) is clear but secondary to the promotion."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [37, 59, 617, 827], \"confidence\": 0.95, \"text_or_description\": \"CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE with any purchase.\"},\n    \"P\": {\"present\": true, \"bbox\": [563, 0, 1000, 552], \"confidence\": 0.92, \"text_or_description\": \"A large chocolate chip cookie with a bite taken out of it.\"},\n    \"C\": {\"present\": true, \"bbox\": [360, 911, 605, 972], \"confidence\": 0.90, \"text_or_description\": \"A red button with white text reading 'FIND QUIZNOS'.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline is the most prominent element, followed by the product image (cookie) and then the call-to-action button. The message is clear, the product is identifiable, and the action (finding Quiznos) is clear but secondary to the promotion.\"\n}"
+}

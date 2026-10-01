@@ -1,0 +1,12 @@
+check,count
+total_rows,1970
+missing_g,0
+negative_g,1
+g_above_1,1
+invalid_g_sum,0
+negative_time,1
+zero_or_negative_full_time,0
+invalid_time_sum,0
+duplicate_condition_image_participant,0
+qc_pass_rows,1969
+qc_fail_rows,1

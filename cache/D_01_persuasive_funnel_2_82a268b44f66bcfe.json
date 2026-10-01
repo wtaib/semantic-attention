@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 1,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20262313,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          20.0,
+          25.0,
+          450.0,
+          310.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "3 Days of DRESS Deals FINAL DAY!"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          480.0,
+          115.0,
+          1000,
+          950.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two women modeling dresses."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          55.0,
+          770.0,
+          495.0,
+          835.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "SHOP NOW button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 90.0,
+    "product_identity": 95.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline establishes urgency and the deal. The product (dresses) is visually presented by models. The CTA directs to shop, completing the funnel."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [20, 25, 450, 310], \"confidence\": 0.95, \"text_or_description\": \"3 Days of DRESS Deals FINAL DAY!\"},\n    \"P\": {\"present\": true, \"bbox\": [480, 115, 1000, 950], \"confidence\": 0.98, \"text_or_description\": \"Two women modeling dresses.\"},\n    \"C\": {\"present\": true, \"bbox\": [55, 770, 495, 835], \"confidence\": 0.97, \"text_or_description\": \"SHOP NOW button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 90,\n  \"product_identity\": 95,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline establishes urgency and the deal. The product (dresses) is visually presented by models. The CTA directs to shop, completing the funnel.\"\n}"
+}

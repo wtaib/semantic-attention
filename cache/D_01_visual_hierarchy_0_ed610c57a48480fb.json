@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 1,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20262321,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.25,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          77.0,
+          129.0,
+          473.0,
+          264.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "3 Days of DRESS Deals"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          485.0,
+          119.0,
+          1000,
+          952.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "Two women in dresses"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          58.0,
+          773.0,
+          497.0,
+          839.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "SHOP NOW button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline '3 Days of DRESS Deals' is prominent and immediately conveys the offer. The product (models in dresses) is visually central and reinforces the offer. The call-to-action 'SHOP NOW' is clearly placed at the bottom for easy access. The hierarchy is logical: offer → product → action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 25, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [77,129,473,264], \"confidence\": 0.98, \"text_or_description\": \"3 Days of DRESS Deals\"},\n    \"P\": {\"present\": true, \"bbox\": [485,119,1000,952], \"confidence\": 0.99, \"text_or_description\": \"Two women in dresses\"},\n    \"C\": {\"present\": true, \"bbox\": [58,773,497,839], \"confidence\": 0.97, \"text_or_description\": \"SHOP NOW button\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline '3 Days of DRESS Deals' is prominent and immediately conveys the offer. The product (models in dresses) is visually central and reinforces the offer. The call-to-action 'SHOP NOW' is clearly placed at the bottom for easy access. The hierarchy is logical: offer → product → action.\"\n}"
+}

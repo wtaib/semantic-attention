@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 1,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20262412,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          68.0,
+          182.0,
+          440.0,
+          580.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A 3-DAY SALE EVENT DRESSES START AT"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          458.0,
+          95.0,
+          1000,
+          999.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Two women wearing dresses"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          50.0,
+          905.0,
+          400.0,
+          975.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "SHOP NOW"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline clearly states the sale proposition, the product (dresses) is visually represented by the models, and the call-to-action directs the user to shop. The visual and textual elements work together to guide the viewer through the persuasive funnel."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [68, 182, 440, 580], \"confidence\": 0.98, \"text_or_description\": \"A 3-DAY SALE EVENT DRESSES START AT\"},\n    \"P\": {\"present\": true, \"bbox\": [458, 95, 1000, 999], \"confidence\": 0.97, \"text_or_description\": \"Two women wearing dresses\"},\n    \"C\": {\"present\": true, \"bbox\": [50, 905, 400, 975], \"confidence\": 0.99, \"text_or_description\": \"SHOP NOW\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline clearly states the sale proposition, the product (dresses) is visually represented by the models, and the call-to-action directs the user to shop. The visual and textual elements work together to guide the viewer through the persuasive funnel.\"\n}"
+}

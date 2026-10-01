@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 7,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20268012,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          467.0,
+          53.0,
+          958.0,
+          345.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          156.0,
+          998.0,
+          975.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Image of a burger, fries, hot dog, and drink"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          602.0,
+          607.0,
+          930.0,
+          962.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline 'BIG BAG LUNCH' immediately states the offer. The product image visually confirms the meal components. The price '$5 Plus Tax' serves as the clear call-to-action for purchase."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [467, 53, 958, 345], \"confidence\": 0.95, \"text_or_description\": \"BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 156, 998, 975], \"confidence\": 0.98, \"text_or_description\": \"Image of a burger, fries, hot dog, and drink\"},\n    \"C\": {\"present\": true, \"bbox\": [602, 607, 930, 962], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline 'BIG BAG LUNCH' immediately states the offer. The product image visually confirms the meal components. The price '$5 Plus Tax' serves as the clear call-to-action for purchase.\"\n}"
+}

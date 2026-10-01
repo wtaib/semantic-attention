@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 6,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20267222,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.25,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          65.0,
+          150.0,
+          530.0,
+          780.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE (with any purchase)."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          550.0,
+          38.0,
+          1000,
+          920.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "A stack of chocolate chip cookies with one broken open to show melted chocolate."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          25.0,
+          830.0,
+          545.0,
+          950.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "CLAIM YOUR FREE COOKIE → button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 100.0,
+    "product_identity": 100.0,
+    "action_clarity": 100.0,
+    "rationale_short": "The headline clearly states the promotion and date, the product image is prominent and appetizing, and the call-to-action is direct and visually emphasized."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 25, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [65, 150, 530, 780], \"confidence\": 0.98, \"text_or_description\": \"CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE (with any purchase).\"},\n    \"P\": {\"present\": true, \"bbox\": [550, 38, 1000, 920], \"confidence\": 0.99, \"text_or_description\": \"A stack of chocolate chip cookies with one broken open to show melted chocolate.\"},\n    \"C\": {\"present\": true, \"bbox\": [25, 830, 545, 950], \"confidence\": 0.97, \"text_or_description\": \"CLAIM YOUR FREE COOKIE → button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 100,\n  \"product_identity\": 100,\n  \"action_clarity\": 100,\n  \"rationale_short\": \"The headline clearly states the promotion and date, the product image is prominent and appetizing, and the call-to-action is direct and visually emphasized.\"\n}"
+}

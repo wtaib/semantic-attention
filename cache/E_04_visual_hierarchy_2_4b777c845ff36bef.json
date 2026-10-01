@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 4,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 2,
+  "seed": 20265423,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          65.0,
+          28.0,
+          820.0,
+          245.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "$0, only Free coffee $100"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          110.0,
+          298.0,
+          480.0,
+          830.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Black coffee cup with 'BRUEG BAG' branding"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          345.0,
+          435.0,
+          655.0,
+          705.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW' text"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline ($0, only Free coffee $100) is the most prominent element, immediately grabbing attention with the offer. The product (coffee cup) is central and clearly branded. The call-to-action (Claim your free coffee & reward now) is visually distinct and placed for easy interaction. Background text provides context but is secondary."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [65, 28, 820, 245], \"confidence\": 0.95, \"text_or_description\": \"$0, only Free coffee $100\"},\n    \"P\": {\"present\": true, \"bbox\": [110, 298, 480, 830], \"confidence\": 0.98, \"text_or_description\": \"Black coffee cup with 'BRUEG BAG' branding\"},\n    \"C\": {\"present\": true, \"bbox\": [345, 435, 655, 705], \"confidence\": 0.92, \"text_or_description\": \"Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW' text\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline ($0, only Free coffee $100) is the most prominent element, immediately grabbing attention with the offer. The product (coffee cup) is central and clearly branded. The call-to-action (Claim your free coffee & reward now) is visually distinct and placed for easy interaction. Background text provides context but is secondary.\"\n}"
+}

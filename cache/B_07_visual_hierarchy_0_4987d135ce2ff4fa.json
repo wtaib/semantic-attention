@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 7,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20268121,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          450.0,
+          65.0,
+          960.0,
+          270.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "HARDEES. WHISLERS. ISYHANCH LUGSIRLD CX.S!"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          170.0,
+          980.0,
+          980.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A burger, fries, hot dog, and soda arranged prominently."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          580.0,
+          615.0,
+          920.0,
+          950.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 0.0,
+    "product_identity": 0.0,
+    "action_clarity": 0.0,
+    "rationale_short": "The headline (H) is prominent at the top, followed by the product display (P), and the price (C) is emphasized in large text at the bottom right. The background and other text elements (O) are secondary."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [450, 65, 960, 270], \"confidence\": 0.95, \"text_or_description\": \"HARDEES. WHISLERS. ISYHANCH LUGSIRLD CX.S!\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 170, 980, 980], \"confidence\": 0.98, \"text_or_description\": \"A burger, fries, hot dog, and soda arranged prominently.\"},\n    \"C\": {\"present\": true, \"bbox\": [580, 615, 920, 950], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 0,\n  \"product_identity\": 0,\n  \"action_clarity\": 0,\n  \"rationale_short\": \"The headline (H) is prominent at the top, followed by the product display (P), and the price (C) is emphasized in large text at the bottom right. The background and other text elements (O) are secondary.\"\n}"
+}

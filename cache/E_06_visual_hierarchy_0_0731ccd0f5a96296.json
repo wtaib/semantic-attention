@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 6,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20267421,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          40.0,
+          60.0,
+          600.0,
+          300.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          560.0,
+          0,
+          1000,
+          540.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Chocolate chip cookie with bite mark"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          325.0,
+          890.0,
+          615.0,
+          975.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "FIND QUIZINOS button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline (H) is the most prominent element, clearly stating the promotion. The product (P) is visually represented by the cookie image, supporting the offer. The call-to-action (C) is clearly visible at the bottom, directing users to find Quiznos. The background (O) provides context without distracting."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [40, 60, 600, 300], \"confidence\": 0.95, \"text_or_description\": \"CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE\"},\n    \"P\": {\"present\": true, \"bbox\": [560, 0, 1000, 540], \"confidence\": 0.95, \"text_or_description\": \"Chocolate chip cookie with bite mark\"},\n    \"C\": {\"present\": true, \"bbox\": [325, 890, 615, 975], \"confidence\": 0.95, \"text_or_description\": \"FIND QUIZINOS button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline (H) is the most prominent element, clearly stating the promotion. The product (P) is visually represented by the cookie image, supporting the offer. The call-to-action (C) is clearly visible at the bottom, directing users to find Quiznos. The background (O) provides context without distracting.\"\n}"
+}

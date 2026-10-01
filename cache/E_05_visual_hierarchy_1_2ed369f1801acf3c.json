@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 5,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20266422,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.3,
+      "C": 0.3,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          200.0,
+          340.0,
+          830.0,
+          500.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "MYSTERY SHOPPER Promo"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          520.0,
+          260.0,
+          1000,
+          730.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Ovaltine can held by a gloved hand with magnifying glass and question mark tags"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          75.0,
+          810.0,
+          925.0,
+          900.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "GET MY MYSTERY STATUS button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline 'MYSTERY SHOPPER Promo' is the most prominent text, followed by the product image and the clear CTA button. The brand logo is secondary. The layout prioritizes the promotion's name, the product, and the action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 30, \"C\": 30, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [200, 340, 830, 500], \"confidence\": 0.95, \"text_or_description\": \"MYSTERY SHOPPER Promo\"},\n    \"P\": {\"present\": true, \"bbox\": [520, 260, 1000, 730], \"confidence\": 0.98, \"text_or_description\": \"Ovaltine can held by a gloved hand with magnifying glass and question mark tags\"},\n    \"C\": {\"present\": true, \"bbox\": [75, 810, 925, 900], \"confidence\": 0.97, \"text_or_description\": \"GET MY MYSTERY STATUS button\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline 'MYSTERY SHOPPER Promo' is the most prominent text, followed by the product image and the clear CTA button. The brand logo is secondary. The layout prioritizes the promotion's name, the product, and the action.\"\n}"
+}

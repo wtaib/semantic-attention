@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 1,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20262003,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.4,
+      "C": 0.15,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          58.0,
+          151.0,
+          437.0,
+          405.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "3 Days of Dress Deals Day Three: Dresses from $15"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          464.0,
+          105.0,
+          997.0,
+          997.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two women wearing dresses, one in orange, one in green"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          38.0,
+          955.0,
+          272.0,
+          997.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "SHOP NOW arrow button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 85.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion, the product (dresses) is visually represented by the models, and the call-to-action directs users to shop. The message is clear, product identity is strong via visuals, and action is unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 40, \"C\": 15, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [58, 151, 437, 405], \"confidence\": 0.95, \"text_or_description\": \"3 Days of Dress Deals Day Three: Dresses from $15\"},\n    \"P\": {\"present\": true, \"bbox\": [464, 105, 997, 997], \"confidence\": 0.98, \"text_or_description\": \"Two women wearing dresses, one in orange, one in green\"},\n    \"C\": {\"present\": true, \"bbox\": [38, 955, 272, 997], \"confidence\": 0.92, \"text_or_description\": \"SHOP NOW arrow button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 85,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion, the product (dresses) is visually represented by the models, and the call-to-action directs users to shop. The message is clear, product identity is strong via visuals, and action is unambiguous.\"\n}"
+}

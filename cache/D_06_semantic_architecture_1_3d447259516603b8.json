@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 6,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 1,
+  "seed": 20267302,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.35,
+      "C": 0.2,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          72.0,
+          145.0,
+          616.0,
+          770.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "DEC 4TH NATIONAL COOKIE DAY! FREE OVEN-TOASTED COOKIE with any purchase."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          605.0,
+          0,
+          1000,
+          967.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two chocolate chip cookies, one partially eaten."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          379.0,
+          800.0,
+          818.0,
+          900.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Red button with text 'FIND A QUIZNOS' and a mouse cursor icon."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion (free cookie on National Cookie Day), the product (oven-toasted cookie) is visually dominant, and the CTA directs users to find a location. The message is highly clear, product identity is explicit, and action is unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 35, \"C\": 20, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [72, 145, 616, 770], \"confidence\": 0.95, \"text_or_description\": \"DEC 4TH NATIONAL COOKIE DAY! FREE OVEN-TOASTED COOKIE with any purchase.\"},\n    \"P\": {\"present\": true, \"bbox\": [605, 0, 1000, 967], \"confidence\": 0.98, \"text_or_description\": \"Two chocolate chip cookies, one partially eaten.\"},\n    \"C\": {\"present\": true, \"bbox\": [379, 800, 818, 900], \"confidence\": 0.97, \"text_or_description\": \"Red button with text 'FIND A QUIZNOS' and a mouse cursor icon.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion (free cookie on National Cookie Day), the product (oven-toasted cookie) is visually dominant, and the CTA directs users to find a location. The message is highly clear, product identity is explicit, and action is unambiguous.\"\n}"
+}

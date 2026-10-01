@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 4,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 2,
+  "seed": 20265323,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.25,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          68.0,
+          52.0,
+          828.0,
+          288.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Free coffee day NOV.13"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          104.0,
+          288.0,
+          528.0,
+          682.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "Black Bruegger's Bagels coffee cup with cream-filled pastry beside it"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          128.0,
+          738.0,
+          872.0,
+          891.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "JOIN US FOR A FREE CUP OF COFFEE BEFORE 2 PM ON THURSDAY, NOVEMBER 13. ONE FREE COFFEE PER GUEST."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline 'Free coffee day NOV.13' grabs attention first. The product (coffee cup and pastry) visually reinforces the offer. The call-to-action details the time, date, and terms clearly at the bottom."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 25, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [68, 52, 828, 288], \"confidence\": 0.98, \"text_or_description\": \"Free coffee day NOV.13\"},\n    \"P\": {\"present\": true, \"bbox\": [104, 288, 528, 682], \"confidence\": 0.99, \"text_or_description\": \"Black Bruegger's Bagels coffee cup with cream-filled pastry beside it\"},\n    \"C\": {\"present\": true, \"bbox\": [128, 738, 872, 891], \"confidence\": 0.97, \"text_or_description\": \"JOIN US FOR A FREE CUP OF COFFEE BEFORE 2 PM ON THURSDAY, NOVEMBER 13. ONE FREE COFFEE PER GUEST.\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline 'Free coffee day NOV.13' grabs attention first. The product (coffee cup and pastry) visually reinforces the offer. The call-to-action details the time, date, and terms clearly at the bottom.\"\n}"
+}

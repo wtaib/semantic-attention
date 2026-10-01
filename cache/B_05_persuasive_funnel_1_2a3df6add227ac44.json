@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 5,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20266112,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          210.0,
+          345.0,
+          830.0,
+          540.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "MYSTERY SHOPPER Promo"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          210.0,
+          45.0,
+          640.0,
+          325.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Ovaltine logo with wheat imagery"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          620.0,
+          810.0,
+          890.0,
+          870.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "CLICK HERE button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 90.0,
+    "product_identity": 95.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The headline 'MYSTERY SHOPPER Promo' immediately states the offer, followed by the prominent Ovaltine brand logo to establish product identity, and concludes with a clear 'CLICK HERE' CTA for action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [210, 345, 830, 540], \"confidence\": 0.95, \"text_or_description\": \"MYSTERY SHOPPER Promo\"},\n    \"P\": {\"present\": true, \"bbox\": [210, 45, 640, 325], \"confidence\": 0.98, \"text_or_description\": \"Ovaltine logo with wheat imagery\"},\n    \"C\": {\"present\": true, \"bbox\": [620, 810, 890, 870], \"confidence\": 0.92, \"text_or_description\": \"CLICK HERE button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 90,\n  \"product_identity\": 95,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The headline 'MYSTERY SHOPPER Promo' immediately states the offer, followed by the prominent Ovaltine brand logo to establish product identity, and concludes with a clear 'CLICK HERE' CTA for action.\"\n}"
+}

@@ -1,0 +1,10 @@
+torch
+transformers>=4.57.3
+accelerate
+bitsandbytes
+pillow
+pandas
+numpy
+scipy
+matplotlib
+tqdm

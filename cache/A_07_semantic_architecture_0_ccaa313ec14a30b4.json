@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 7,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20268001,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.5,
+      "C": 0.2,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          468.0,
+          47.0,
+          950.0,
+          345.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          15.0,
+          152.0,
+          990.0,
+          975.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "A composite image showing a hamburger, french fries, a chili dog, a pie, and a Coca-Cola drink."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          600.0,
+          602.0,
+          920.0,
+          950.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline 'BIG BAG LUNCH' clearly states the offer. The product visuals (burger, fries, chili dog, pie, drink) are central and detailed. The call-to-action 'ONLY $5 Plus Tax' is prominent and unambiguous, directing the viewer to the price. The layout supports a clear message: a value meal for $5."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 50, \"C\": 20, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [468, 47, 950, 345], \"confidence\": 0.98, \"text_or_description\": \"BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [15, 152, 990, 975], \"confidence\": 0.99, \"text_or_description\": \"A composite image showing a hamburger, french fries, a chili dog, a pie, and a Coca-Cola drink.\"},\n    \"C\": {\"present\": true, \"bbox\": [600, 602, 920, 950], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline 'BIG BAG LUNCH' clearly states the offer. The product visuals (burger, fries, chili dog, pie, drink) are central and detailed. The call-to-action 'ONLY $5 Plus Tax' is prominent and unambiguous, directing the viewer to the price. The layout supports a clear message: a value meal for $5.\"\n}"
+}

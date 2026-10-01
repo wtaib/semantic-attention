@@ -1,0 +1,47 @@
+{
+  "condition": "E",
+  "image_id": 0,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20261412,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.0,
+      "P": 0.0,
+      "C": 0.0,
+      "O": 1.0
+    },
+    "elements": {
+      "H": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      },
+      "P": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      },
+      "C": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 0.0,
+    "product_identity": 0.0,
+    "action_clarity": 0.0,
+    "rationale_short": "The image contains no text or explicit branding, and no clear call-to-action. The visual elements (lock icon and bar chart) are ambiguous without context and do not constitute a persuasive funnel. The entire visual is classified as 'Other/background/context' due to lack of identifiable persuasive components."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 0, \"P\": 0, \"C\": 0, \"O\": 100},\n  \"elements\": {\n    \"H\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"},\n    \"P\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"},\n    \"C\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 0,\n  \"product_identity\": 0,\n  \"action_clarity\": 0,\n  \"rationale_short\": \"The image contains no text or explicit branding, and no clear call-to-action. The visual elements (lock icon and bar chart) are ambiguous without context and do not constitute a persuasive funnel. The entire visual is classified as 'Other/background/context' due to lack of identifiable persuasive components.\"\n}"
+}

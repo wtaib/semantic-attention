@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 3,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20264321,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.25,
+      "P": 0.3,
+      "C": 0.35,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          37.0,
+          28.0,
+          690.0,
+          72.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          18.0,
+          608.0,
+          456.0,
+          935.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A jar of mineral powder with a brush next to it"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          491.0,
+          650.0,
+          939.0,
+          819.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "TRY IT FREE CLICK HERE button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 8.0,
+    "product_identity": 9.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' grabs attention. The product (mineral powder) is visually prominent. The CTA 'TRY IT FREE CLICK HERE' is the most emphasized element with a button design, clearly guiding action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 25, \"P\": 30, \"C\": 35, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [37,28,690,72], \"confidence\": 0.95, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [18,608,456,935], \"confidence\": 0.98, \"text_or_description\": \"A jar of mineral powder with a brush next to it\"},\n    \"C\": {\"present\": true, \"bbox\": [491,650,939,819], \"confidence\": 0.97, \"text_or_description\": \"TRY IT FREE CLICK HERE button\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 8,\n  \"product_identity\": 9,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' grabs attention. The product (mineral powder) is visually prominent. The CTA 'TRY IT FREE CLICK HERE' is the most emphasized element with a button design, clearly guiding action.\"\n}"
+}

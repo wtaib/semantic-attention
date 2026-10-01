@@ -1,0 +1,26 @@
+condition,image_id,n_rows,n_participants,n_qc_pass,n_qc_fail,expected_n_participants,participant_count_ok,all_rows_qc_pass,cell_qc_error_reason
+A,1,20,20,19,1,20,True,False,1 participant row(s) failed QC
+A,2,21,21,21,0,20,False,True,participant count 21 != expected 20
+A,4,21,21,21,0,20,False,True,participant count 21 != expected 20
+A,7,21,21,21,0,20,False,True,participant count 21 != expected 20
+A,10,19,19,19,0,20,False,True,participant count 19 != expected 20
+A,16,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,1,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,3,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,12,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,17,21,21,21,0,20,False,True,participant count 21 != expected 20
+B,20,21,21,21,0,20,False,True,participant count 21 != expected 20
+C,5,21,21,21,0,20,False,True,participant count 21 != expected 20
+C,7,21,21,21,0,20,False,True,participant count 21 != expected 20
+C,9,19,19,19,0,20,False,True,participant count 19 != expected 20
+C,16,21,21,21,0,20,False,True,participant count 21 != expected 20
+D,6,21,21,21,0,20,False,True,participant count 21 != expected 20
+D,7,19,19,19,0,20,False,True,participant count 19 != expected 20
+D,16,19,19,19,0,20,False,True,participant count 19 != expected 20
+D,17,19,19,19,0,20,False,True,participant count 19 != expected 20
+D,18,21,21,21,0,20,False,True,participant count 21 != expected 20
+D,20,21,21,21,0,20,False,True,participant count 21 != expected 20
+E,6,19,19,19,0,20,False,True,participant count 19 != expected 20
+E,8,19,19,19,0,20,False,True,participant count 19 != expected 20
+E,14,21,21,21,0,20,False,True,participant count 21 != expected 20
+E,19,21,21,21,0,20,False,True,participant count 21 != expected 20

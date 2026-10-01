@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 5,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20266322,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.25,
+      "C": 0.35,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          275.0,
+          285.0,
+          810.0,
+          410.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "MYSTERY SHOPPER Promo"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          98.0,
+          52.0,
+          515.0,
+          308.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Ovaltine logo with wheat imagery"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          465.0,
+          588.0,
+          970.0,
+          673.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "CLICK HERE TO LEARN MORE! button with hand cursor"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline 'MYSTERY SHOPPER Promo' is the most prominent text, followed by the brand logo (Ovaltine) and the primary CTA button. The visual hierarchy clearly prioritizes the promotion's name, brand recognition, and the action to take."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 25, \"C\": 35, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [275, 285, 810, 410], \"confidence\": 0.95, \"text_or_description\": \"MYSTERY SHOPPER Promo\"},\n    \"P\": {\"present\": true, \"bbox\": [98, 52, 515, 308], \"confidence\": 0.98, \"text_or_description\": \"Ovaltine logo with wheat imagery\"},\n    \"C\": {\"present\": true, \"bbox\": [465, 588, 970, 673], \"confidence\": 0.97, \"text_or_description\": \"CLICK HERE TO LEARN MORE! button with hand cursor\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline 'MYSTERY SHOPPER Promo' is the most prominent text, followed by the brand logo (Ovaltine) and the primary CTA button. The visual hierarchy clearly prioritizes the promotion's name, brand recognition, and the action to take.\"\n}"
+}

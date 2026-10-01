@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 7,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 0,
+  "seed": 20268211,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          462.0,
+          46.0,
+          962.0,
+          312.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          422.0,
+          335.0,
+          990.0,
+          600.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Double cheeseburger with toppings, chili dog, fried chicken sandwich, and fries with Coca-Cola."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          512.0,
+          859.0,
+          982.0,
+          972.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "GRAB THE BIG BAG DEAL"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline 'BIG BAG LUNCH' clearly states the offer. The product is visually represented by the full meal components. The call-to-action 'GRAB THE BIG BAG DEAL' directly instructs the customer on what to do next."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [462, 46, 962, 312], \"confidence\": 0.95, \"text_or_description\": \"BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [422, 335, 990, 600], \"confidence\": 0.92, \"text_or_description\": \"Double cheeseburger with toppings, chili dog, fried chicken sandwich, and fries with Coca-Cola.\"},\n    \"C\": {\"present\": true, \"bbox\": [512, 859, 982, 972], \"confidence\": 0.90, \"text_or_description\": \"GRAB THE BIG BAG DEAL\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline 'BIG BAG LUNCH' clearly states the offer. The product is visually represented by the full meal components. The call-to-action 'GRAB THE BIG BAG DEAL' directly instructs the customer on what to do next.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 4,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20265422,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          65.0,
+          25.0,
+          825.0,
+          250.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "$0, only Free coffee $100"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          110.0,
+          295.0,
+          480.0,
+          825.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Black coffee cup with 'BRUEG BAG' branding"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          345.0,
+          435.0,
+          655.0,
+          705.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW' text"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline ($0, only Free coffee $100) is the most prominent element, immediately conveying the offer. The product (coffee cup) is central and visually anchors the ad. The call-to-action (Claim your free coffee & reward now) is highlighted in a distinct circular button for easy identification. The background context (date, time, terms) is secondary and placed at the bottom."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [65, 25, 825, 250], \"confidence\": 0.95, \"text_or_description\": \"$0, only Free coffee $100\"},\n    \"P\": {\"present\": true, \"bbox\": [110, 295, 480, 825], \"confidence\": 0.98, \"text_or_description\": \"Black coffee cup with 'BRUEG BAG' branding\"},\n    \"C\": {\"present\": true, \"bbox\": [345, 435, 655, 705], \"confidence\": 0.97, \"text_or_description\": \"Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW' text\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline ($0, only Free coffee $100) is the most prominent element, immediately conveying the offer. The product (coffee cup) is central and visually anchors the ad. The call-to-action (Claim your free coffee & reward now) is highlighted in a distinct circular button for easy identification. The background context (date, time, terms) is secondary and placed at the bottom.\"\n}"
+}

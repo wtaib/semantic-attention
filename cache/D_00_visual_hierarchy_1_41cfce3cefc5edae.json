@@ -1,0 +1,50 @@
+{
+  "condition": "D",
+  "image_id": 0,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20261322,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.0,
+      "P": 1.0,
+      "C": 0.0,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "confidence": 1.0,
+        "text_or_description": "A golden circular logo with a cross-like design, representing the product/brand object."
+      },
+      "C": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      }
+    },
+    "intended_order": [
+      "P"
+    ],
+    "message_clarity": 100.0,
+    "product_identity": 100.0,
+    "action_clarity": 0.0,
+    "rationale_short": "The image contains only a product/brand logo with no headline, call-to-action, or other contextual elements. The entire visual budget is allocated to the product object to establish brand identity."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 0, \"P\": 100, \"C\": 0, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 0, 1000, 1000], \"confidence\": 1.0, \"text_or_description\": \"A golden circular logo with a cross-like design, representing the product/brand object.\"},\n    \"C\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"}\n  },\n  \"intended_order\": [\"P\"],\n  \"message_clarity\": 100,\n  \"product_identity\": 100,\n  \"action_clarity\": 0,\n  \"rationale_short\": \"The image contains only a product/brand logo with no headline, call-to-action, or other contextual elements. The entire visual budget is allocated to the product object to establish brand identity.\"\n}"
+}

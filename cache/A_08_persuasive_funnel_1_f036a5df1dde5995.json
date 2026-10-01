@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 8,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20269012,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          144.0,
+          12.0,
+          875.0,
+          168.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Oh yes, it's FREE Tuesday, April 8th between 2-5pm"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          144.0,
+          315.0,
+          958.0,
+          875.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Four iced beverages in branded cups on a wooden tray"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          10.0,
+          680.0,
+          368.0,
+          975.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The headline immediately grabs attention with 'FREE', the product is visually clear through the branded drinks, and the call-to-action specifies the offer and conditions."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [144, 12, 875, 168], \"confidence\": 0.95, \"text_or_description\": \"Oh yes, it's FREE Tuesday, April 8th between 2-5pm\"},\n    \"P\": {\"present\": true, \"bbox\": [144, 315, 958, 875], \"confidence\": 0.98, \"text_or_description\": \"Four iced beverages in branded cups on a wooden tray\"},\n    \"C\": {\"present\": true, \"bbox\": [10, 680, 368, 975], \"confidence\": 0.92, \"text_or_description\": \"Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The headline immediately grabs attention with 'FREE', the product is visually clear through the branded drinks, and the call-to-action specifies the offer and conditions.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 3,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20264221,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.3,
+      "C": 0.4,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          24.0,
+          26.0,
+          750.0,
+          97.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          10.0,
+          614.0,
+          420.0,
+          978.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A container of mineral powder with a brush inside"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          475.0,
+          807.0,
+          935.0,
+          875.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "CLICK HERE button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 10.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' is prominent at the top. The product image is central and visually dominant. The CTA 'CLICK HERE' is large, colored, and positioned for easy action. The hierarchy clearly prioritizes the headline, then product, then action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 30, \"C\": 40, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [24,26,750,97], \"confidence\": 0.95, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [10,614,420,978], \"confidence\": 0.98, \"text_or_description\": \"A container of mineral powder with a brush inside\"},\n    \"C\": {\"present\": true, \"bbox\": [475,807,935,875], \"confidence\": 0.97, \"text_or_description\": \"CLICK HERE button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 10,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' is prominent at the top. The product image is central and visually dominant. The CTA 'CLICK HERE' is large, colored, and positioned for easy action. The hierarchy clearly prioritizes the headline, then product, then action.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 4,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20265222,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.3,
+      "C": 0.3,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          117.0,
+          50.0,
+          837.0,
+          340.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Free coffee day NOV.13"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          113.0,
+          296.0,
+          541.0,
+          837.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Black coffee cup with 'BRUEG BAG' branding, steaming coffee, and a pastry beside it."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          330.0,
+          395.0,
+          782.0,
+          788.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Red circular badge with 'YOUR FREE COFFEE NOW' and smaller text below detailing the offer."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline 'Free coffee day NOV.13' grabs attention first. The product (coffee cup) is central and visually dominant. The call-to-action ('YOUR FREE COFFEE NOW') is highlighted in a prominent badge, reinforcing the offer. The supporting text clarifies details, making the message clear and actionable."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 30, \"C\": 30, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [117, 50, 837, 340], \"confidence\": 0.95, \"text_or_description\": \"Free coffee day NOV.13\"},\n    \"P\": {\"present\": true, \"bbox\": [113, 296, 541, 837], \"confidence\": 0.98, \"text_or_description\": \"Black coffee cup with 'BRUEG BAG' branding, steaming coffee, and a pastry beside it.\"},\n    \"C\": {\"present\": true, \"bbox\": [330, 395, 782, 788], \"confidence\": 0.92, \"text_or_description\": \"Red circular badge with 'YOUR FREE COFFEE NOW' and smaller text below detailing the offer.\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline 'Free coffee day NOV.13' grabs attention first. The product (coffee cup) is central and visually dominant. The call-to-action ('YOUR FREE COFFEE NOW') is highlighted in a prominent badge, reinforcing the offer. The supporting text clarifies details, making the message clear and actionable.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 4,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 0,
+  "seed": 20265211,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          118.0,
+          52.0,
+          840.0,
+          345.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Free coffee day NOV.13"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          115.0,
+          296.0,
+          540.0,
+          835.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Black coffee cup with 'BRUEG BAG' branding and steaming coffee."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          330.0,
+          395.0,
+          780.0,
+          785.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Circular badge with 'YOUR FREE COFFEE NOW' and smaller text below detailing the offer."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 90.0,
+    "product_identity": 85.0,
+    "action_clarity": 80.0,
+    "rationale_short": "The headline announces the event, the product (coffee cup) establishes the brand and item, and the call-to-action explicitly instructs on how to participate, creating a clear persuasive funnel."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [118, 52, 840, 345], \"confidence\": 0.95, \"text_or_description\": \"Free coffee day NOV.13\"},\n    \"P\": {\"present\": true, \"bbox\": [115, 296, 540, 835], \"confidence\": 0.98, \"text_or_description\": \"Black coffee cup with 'BRUEG BAG' branding and steaming coffee.\"},\n    \"C\": {\"present\": true, \"bbox\": [330, 395, 780, 785], \"confidence\": 0.92, \"text_or_description\": \"Circular badge with 'YOUR FREE COFFEE NOW' and smaller text below detailing the offer.\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 90,\n  \"product_identity\": 85,\n  \"action_clarity\": 80,\n  \"rationale_short\": \"The headline announces the event, the product (coffee cup) establishes the brand and item, and the call-to-action explicitly instructs on how to participate, creating a clear persuasive funnel.\"\n}"
+}

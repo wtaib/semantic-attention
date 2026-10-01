@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 4,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20265412,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          67.0,
+          27.0,
+          825.0,
+          243.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "$0, only Free coffee $100"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          113.0,
+          298.0,
+          483.0,
+          828.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Black coffee cup with 'BRUEG BAG' branding"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          345.0,
+          436.0,
+          653.0,
+          708.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW'"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 90.0,
+    "product_identity": 85.0,
+    "action_clarity": 80.0,
+    "rationale_short": "The headline immediately grabs attention with the offer, the product (coffee cup) visually confirms the brand and item, and the call-to-action directs the viewer to claim the reward. The background text provides necessary context for the offer's conditions."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [67, 27, 825, 243], \"confidence\": 0.95, \"text_or_description\": \"$0, only Free coffee $100\"},\n    \"P\": {\"present\": true, \"bbox\": [113, 298, 483, 828], \"confidence\": 0.98, \"text_or_description\": \"Black coffee cup with 'BRUEG BAG' branding\"},\n    \"C\": {\"present\": true, \"bbox\": [345, 436, 653, 708], \"confidence\": 0.97, \"text_or_description\": \"Red circular button with 'CLAIM YOUR FREE COFFEE & REWARD NOW'\"},\n    \"O\": {\"present\": true, \"bbox\": [454, 785, 949, 915], \"confidence\": 0.92, \"text_or_description\": \"Text describing event details and conditions\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 90,\n  \"product_identity\": 85,\n  \"action_clarity\": 80,\n  \"rationale_short\": \"The headline immediately grabs attention with the offer, the product (coffee cup) visually confirms the brand and item, and the call-to-action directs the viewer to claim the reward. The background text provides necessary context for the offer's conditions.\"\n}"
+}

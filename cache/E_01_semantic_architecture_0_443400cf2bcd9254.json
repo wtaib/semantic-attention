@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 1,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20262401,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          62.0,
+          183.0,
+          440.0,
+          837.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A 3-DAY SALE EVENT DRESSES START AT $15"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          457.0,
+          88.0,
+          1000,
+          999.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "Two women wearing dresses, one in orange, one in green"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          50.0,
+          904.0,
+          400.0,
+          974.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "SHOP NOW button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 95.0,
+    "rationale_short": "The headline clearly states the sale event and price, the product (dresses) is visually represented by the models, and the call-to-action is explicit with a 'SHOP NOW' button. The message is direct and unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 40, \"C\": 20, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [62, 183, 440, 837], \"confidence\": 0.98, \"text_or_description\": \"A 3-DAY SALE EVENT DRESSES START AT $15\"},\n    \"P\": {\"present\": true, \"bbox\": [457, 88, 1000, 999], \"confidence\": 0.99, \"text_or_description\": \"Two women wearing dresses, one in orange, one in green\"},\n    \"C\": {\"present\": true, \"bbox\": [50, 904, 400, 974], \"confidence\": 0.97, \"text_or_description\": \"SHOP NOW button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 95,\n  \"rationale_short\": \"The headline clearly states the sale event and price, the product (dresses) is visually represented by the models, and the call-to-action is explicit with a 'SHOP NOW' button. The message is direct and unambiguous.\"\n}"
+}

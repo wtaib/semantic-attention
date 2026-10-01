@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 1,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20262301,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.35,
+      "P": 0.4,
+      "C": 0.25,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          25.0,
+          128.0,
+          475.0,
+          625.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "3 Days of DRESS Deals FINAL DAY! DRESSES FROM $15"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          482.0,
+          118.0,
+          1000,
+          950.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "Two women wearing dresses, one in orange, one in green."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          55.0,
+          773.0,
+          495.0,
+          837.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "SHOP NOW button with arrow"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 95.0,
+    "rationale_short": "The headline clearly states the promotion and price, the product (dresses) is visually prominent, and the call-to-action is direct and unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 35, \"P\": 40, \"C\": 25, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [25, 128, 475, 625], \"confidence\": 0.98, \"text_or_description\": \"3 Days of DRESS Deals FINAL DAY! DRESSES FROM $15\"},\n    \"P\": {\"present\": true, \"bbox\": [482, 118, 1000, 950], \"confidence\": 0.99, \"text_or_description\": \"Two women wearing dresses, one in orange, one in green.\"},\n    \"C\": {\"present\": true, \"bbox\": [55, 773, 495, 837], \"confidence\": 0.97, \"text_or_description\": \"SHOP NOW button with arrow\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 95,\n  \"rationale_short\": \"The headline clearly states the promotion and price, the product (dresses) is visually prominent, and the call-to-action is direct and unambiguous.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 8,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 1,
+  "seed": 20269002,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.5,
+      "C": 0.15,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          148.0,
+          14.0,
+          881.0,
+          166.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Oh yes, it's FREE Tuesday, April 8th between 2-5pm"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          138.0,
+          223.0,
+          960.0,
+          875.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Four iced beverages in branded cups on a wooden tray"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          14.0,
+          678.0,
+          368.0,
+          974.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline announces the free offer and date/time, the product visuals clearly show the beverages, and the call-to-action specifies what to enjoy. The message is clear, the product is identifiable, and the action is explicit."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 50, \"C\": 15, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [148, 14, 881, 166], \"confidence\": 0.95, \"text_or_description\": \"Oh yes, it's FREE Tuesday, April 8th between 2-5pm\"},\n    \"P\": {\"present\": true, \"bbox\": [138, 223, 960, 875], \"confidence\": 0.98, \"text_or_description\": \"Four iced beverages in branded cups on a wooden tray\"},\n    \"C\": {\"present\": true, \"bbox\": [14, 678, 368, 974], \"confidence\": 0.92, \"text_or_description\": \"Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline announces the free offer and date/time, the product visuals clearly show the beverages, and the call-to-action specifies what to enjoy. The message is clear, the product is identifiable, and the action is explicit.\"\n}"
+}

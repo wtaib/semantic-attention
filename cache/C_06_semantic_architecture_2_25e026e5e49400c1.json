@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 6,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20267203,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          68.0,
+          153.0,
+          537.0,
+          797.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE (with any purchase)."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          552.0,
+          37.0,
+          1000,
+          923.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "A stack of chocolate chip cookies with one broken open to show melted chocolate."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          23.0,
+          834.0,
+          548.0,
+          951.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Claim Your Free Cookie button with arrow."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion, the product is visually dominant, and the CTA is explicit and prominent."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 40, \"C\": 20, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [68, 153, 537, 797], \"confidence\": 0.98, \"text_or_description\": \"Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE (with any purchase).\"},\n    \"P\": {\"present\": true, \"bbox\": [552, 37, 1000, 923], \"confidence\": 0.99, \"text_or_description\": \"A stack of chocolate chip cookies with one broken open to show melted chocolate.\"},\n    \"C\": {\"present\": true, \"bbox\": [23, 834, 548, 951], \"confidence\": 0.97, \"text_or_description\": \"Claim Your Free Cookie button with arrow.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion, the product is visually dominant, and the CTA is explicit and prominent.\"\n}"
+}

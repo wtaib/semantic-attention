@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 7,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20268222,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          460.0,
+          45.0,
+          960.0,
+          310.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          415.0,
+          335.0,
+          990.0,
+          600.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Double cheeseburger with toppings, chili dog, fried chicken sandwich, and fries with a Coca-Cola."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          505.0,
+          855.0,
+          980.0,
+          970.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "GRAB THE BIG BAG DEAL"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline 'BIG BAG LUNCH' is the most prominent element, followed by the product display, then the call-to-action. The price and brand are also visually emphasized to support the message."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [460, 45, 960, 310], \"confidence\": 0.95, \"text_or_description\": \"BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [415, 335, 990, 600], \"confidence\": 0.92, \"text_or_description\": \"Double cheeseburger with toppings, chili dog, fried chicken sandwich, and fries with a Coca-Cola.\"},\n    \"C\": {\"present\": true, \"bbox\": [505, 855, 980, 970], \"confidence\": 0.90, \"text_or_description\": \"GRAB THE BIG BAG DEAL\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline 'BIG BAG LUNCH' is the most prominent element, followed by the product display, then the call-to-action. The price and brand are also visually emphasized to support the message.\"\n}"
+}

@@ -1,0 +1,43 @@
+{
+  "condition": "B",
+  "image_id": 2,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20263122,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.0,
+      "P": 0.0,
+      "C": 0.0,
+      "O": 1.0
+    },
+    "elements": {
+      "H": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      },
+      "P": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      },
+      "C": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      }
+    },
+    "intended_order": [],
+    "message_clarity": 0.0,
+    "product_identity": 0.0,
+    "action_clarity": 0.0,
+    "rationale_short": "The image is a terminal-based package selection interface for TeX Live, not an advertisement. It contains no headline, product branding, or call-to-action. All content is functional UI text and constitutes background/context (O)."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 0, \"P\": 0, \"C\": 0, \"O\": 100},\n  \"elements\": {\n    \"H\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"},\n    \"P\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"},\n    \"C\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"}\n  },\n  \"intended_order\": [\"O\"],\n  \"message_clarity\": 0,\n  \"product_identity\": 0,\n  \"action_clarity\": 0,\n  \"rationale_short\": \"The image is a terminal-based package selection interface for TeX Live, not an advertisement. It contains no headline, product branding, or call-to-action. All content is functional UI text and constitutes background/context (O).\"\n}"
+}

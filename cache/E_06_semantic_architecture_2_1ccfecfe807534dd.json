@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 6,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20267403,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.5,
+      "P": 0.3,
+      "C": 0.15,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          40.0,
+          65.0,
+          600.0,
+          870.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE with any purchase."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          560.0,
+          0,
+          1000,
+          545.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "A partially eaten chocolate chip cookie."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          325.0,
+          895.0,
+          615.0,
+          980.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "FIND QUIZINOS button."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion, the product (cookie) is visually prominent, and the call-to-action directs users to find Quiznos. The message is direct and unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 50, \"P\": 30, \"C\": 15, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [40, 65, 600, 870], \"confidence\": 0.98, \"text_or_description\": \"Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE with any purchase.\"},\n    \"P\": {\"present\": true, \"bbox\": [560, 0, 1000, 545], \"confidence\": 0.95, \"text_or_description\": \"A partially eaten chocolate chip cookie.\"},\n    \"C\": {\"present\": true, \"bbox\": [325, 895, 615, 980], \"confidence\": 0.97, \"text_or_description\": \"FIND QUIZINOS button.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion, the product (cookie) is visually prominent, and the call-to-action directs users to find Quiznos. The message is direct and unambiguous.\"\n}"
+}

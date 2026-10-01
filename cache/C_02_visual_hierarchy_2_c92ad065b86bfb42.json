@@ -1,0 +1,11 @@
+{
+  "condition": "C",
+  "image_id": 2,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 2,
+  "seed": 20263223,
+  "status": "ERROR",
+  "error": "ValueError: Invalid budget: {'H': 0, 'P': 0, 'C': 0, 'O': 0}",
+  "clean": null,
+  "raw_text": ""
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 6,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20267322,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          70.0,
+          140.0,
+          610.0,
+          750.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "DEC 4TH NATIONAL COOKIE DAY! FREE OVEN-TOASTED COOKIE with any purchase."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          600.0,
+          0,
+          1000,
+          960.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two chocolate chip cookies, one partially eaten."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          375.0,
+          800.0,
+          815.0,
+          900.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Red button with text 'FIND A QUIZNOS' and a mouse cursor icon."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline announces the promotion and date, the product (cookies) is visually dominant, and the CTA is clearly positioned for action. The hierarchy prioritizes the offer, then the product, then the call to action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [70, 140, 610, 750], \"confidence\": 0.95, \"text_or_description\": \"DEC 4TH NATIONAL COOKIE DAY! FREE OVEN-TOASTED COOKIE with any purchase.\"},\n    \"P\": {\"present\": true, \"bbox\": [600, 0, 1000, 960], \"confidence\": 0.98, \"text_or_description\": \"Two chocolate chip cookies, one partially eaten.\"},\n    \"C\": {\"present\": true, \"bbox\": [375, 800, 815, 900], \"confidence\": 0.92, \"text_or_description\": \"Red button with text 'FIND A QUIZNOS' and a mouse cursor icon.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline announces the promotion and date, the product (cookies) is visually dominant, and the CTA is clearly positioned for action. The hierarchy prioritizes the offer, then the product, then the call to action.\"\n}"
+}

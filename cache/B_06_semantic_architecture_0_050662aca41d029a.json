@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 6,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20267101,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.4,
+      "C": 0.1,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          40.0,
+          60.0,
+          600.0,
+          830.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE with any purchase."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          560.0,
+          0,
+          1000,
+          545.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "A large chocolate chip cookie with a bite taken out, showing texture and chocolate chunks."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          360.0,
+          905.0,
+          600.0,
+          980.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "A red button with white text reading 'FIND QUIZNOS'."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion and date, the product (cookie) is visually dominant, and the call-to-action directs users to find the brand. The message is unambiguous and the visual hierarchy supports the intended reading order."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 40, \"C\": 10, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [40, 60, 600, 830], \"confidence\": 0.95, \"text_or_description\": \"Celebrate National Cookie Day Dec 4th with a FREE OVEN-TOASTED COOKIE with any purchase.\"},\n    \"P\": {\"present\": true, \"bbox\": [560, 0, 1000, 545], \"confidence\": 0.95, \"text_or_description\": \"A large chocolate chip cookie with a bite taken out, showing texture and chocolate chunks.\"},\n    \"C\": {\"present\": true, \"bbox\": [360, 905, 600, 980], \"confidence\": 0.95, \"text_or_description\": \"A red button with white text reading 'FIND QUIZNOS'.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion and date, the product (cookie) is visually dominant, and the call-to-action directs users to find the brand. The message is unambiguous and the visual hierarchy supports the intended reading order.\"\n}"
+}

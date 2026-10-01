@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 4,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20265112,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.3,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          100.0,
+          50.0,
+          850.0,
+          350.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Free coffee day NOV. 13"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          110.0,
+          295.0,
+          540.0,
+          830.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Bruegger's Bagels coffee cup and bagel product"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          420.0,
+          780.0,
+          940.0,
+          910.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Join us for a free cup of coffee before 2 pm on Thursday, November 13. One free coffee per guest."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 95.0,
+    "rationale_short": "The headline announces the offer, the product (Bruegger's Bagels coffee and bagel) is visually and textually presented, and the call-to-action specifies the time, date, and terms for participation."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 30, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [100, 50, 850, 350], \"confidence\": 0.95, \"text_or_description\": \"Free coffee day NOV. 13\"},\n    \"P\": {\"present\": true, \"bbox\": [110, 295, 540, 830], \"confidence\": 0.98, \"text_or_description\": \"Bruegger's Bagels coffee cup and bagel product\"},\n    \"C\": {\"present\": true, \"bbox\": [420, 780, 940, 910], \"confidence\": 0.97, \"text_or_description\": \"Join us for a free cup of coffee before 2 pm on Thursday, November 13. One free coffee per guest.\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 95,\n  \"rationale_short\": \"The headline announces the offer, the product (Bruegger's Bagels coffee and bagel) is visually and textually presented, and the call-to-action specifies the time, date, and terms for participation.\"\n}"
+}

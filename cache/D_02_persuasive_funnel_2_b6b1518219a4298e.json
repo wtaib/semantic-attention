@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 2,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20263313,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          200.0,
+          90.0,
+          700.0,
+          350.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "fab MEANS FIRST for early access to savings"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          0,
+          999.0,
+          999.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Various bareMinerals skincare and makeup products surrounding the central message."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          400.0,
+          730.0,
+          590.0,
+          775.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "SHOP NOW button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline introduces the offer, the surrounding products establish brand identity, and the call-to-action directs the user to shop. The message is clear, the product is identifiable, and the action is explicit."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [200, 90, 700, 350], \"confidence\": 0.95, \"text_or_description\": \"fab MEANS FIRST for early access to savings\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 0, 999, 999], \"confidence\": 0.98, \"text_or_description\": \"Various bareMinerals skincare and makeup products surrounding the central message.\"},\n    \"C\": {\"present\": true, \"bbox\": [400, 730, 590, 775], \"confidence\": 0.95, \"text_or_description\": \"SHOP NOW button\"},\n    \"O\": {\"present\": true, \"bbox\": [170, 80, 820, 850], \"confidence\": 0.90, \"text_or_description\": \"Dark red and black background with product placement and promotional text.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline introduces the offer, the surrounding products establish brand identity, and the call-to-action directs the user to shop. The message is clear, the product is identifiable, and the action is explicit.\"\n}"
+}

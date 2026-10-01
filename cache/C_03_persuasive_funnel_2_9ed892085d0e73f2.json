@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 3,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20264213,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.3,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          23.0,
+          26.0,
+          756.0,
+          94.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          10.0,
+          614.0,
+          421.0,
+          975.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "A jar of mineral powder with a brush in it"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          476.0,
+          808.0,
+          934.0,
+          875.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "CLICK HERE"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 100.0,
+    "product_identity": 100.0,
+    "action_clarity": 100.0,
+    "rationale_short": "The ad clearly presents the proposition 'Better Than Bare' to establish benefit, shows the product (RawMinerals powder) to identify the brand, and ends with a direct CTA ('Click Here') to drive action. The message is unambiguous and follows a logical persuasive funnel."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 30, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [23,26,756,94], \"confidence\": 0.99, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [10,614,421,975], \"confidence\": 0.99, \"text_or_description\": \"A jar of mineral powder with a brush in it\"},\n    \"C\": {\"present\": true, \"bbox\": [476,808,934,875], \"confidence\": 0.99, \"text_or_description\": \"CLICK HERE\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 100,\n  \"product_identity\": 100,\n  \"action_clarity\": 100,\n  \"rationale_short\": \"The ad clearly presents the proposition 'Better Than Bare' to establish benefit, shows the product (RawMinerals powder) to identify the brand, and ends with a direct CTA ('Click Here') to drive action. The message is unambiguous and follows a logical persuasive funnel.\"\n}"
+}

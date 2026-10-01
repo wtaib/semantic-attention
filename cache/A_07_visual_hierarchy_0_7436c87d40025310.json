@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 7,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20268021,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.35,
+      "C": 0.2,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          470.0,
+          50.0,
+          967.0,
+          345.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          150.0,
+          999.0,
+          970.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Image of burger, fries, hot dog, and soda"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          600.0,
+          600.0,
+          920.0,
+          950.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline 'BIG BAG LUNCH' is the most prominent element, followed by the product images, and the price is emphasized as the primary call to action. The layout clearly prioritizes the offer's value and the products included."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 35, \"C\": 20, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [470, 50, 967, 345], \"confidence\": 0.95, \"text_or_description\": \"BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 150, 999, 970], \"confidence\": 0.98, \"text_or_description\": \"Image of burger, fries, hot dog, and soda\"},\n    \"C\": {\"present\": true, \"bbox\": [600, 600, 920, 950], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline 'BIG BAG LUNCH' is the most prominent element, followed by the product images, and the price is emphasized as the primary call to action. The layout clearly prioritizes the offer's value and the products included.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "C",
+  "image_id": 3,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20264203,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.3,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          26.0,
+          27.0,
+          754.0,
+          95.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          11.0,
+          613.0,
+          421.0,
+          977.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Powder compact with brush"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          474.0,
+          807.0,
+          936.0,
+          875.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "CLICK HERE"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 95.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' sets the aspirational tone. The product image (powder compact) is central to visual identity. The 'CLICK HERE' CTA is prominent and direct, guiding action. The message is clear, product identity is strong, and the call to action is unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 30, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [26,27,754,95], \"confidence\": 0.98, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [11,613,421,977], \"confidence\": 0.97, \"text_or_description\": \"Powder compact with brush\"},\n    \"C\": {\"present\": true, \"bbox\": [474,807,936,875], \"confidence\": 0.99, \"text_or_description\": \"CLICK HERE\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 95,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' sets the aspirational tone. The product image (powder compact) is central to visual identity. The 'CLICK HERE' CTA is prominent and direct, guiding action. The message is clear, product identity is strong, and the call to action is unambiguous.\"\n}"
+}

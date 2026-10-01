@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 6,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20267022,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          33.0,
+          57.0,
+          600.0,
+          816.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          558.0,
+          0,
+          1000,
+          551.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Chocolate chip cookie with bite taken out"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          355.0,
+          912.0,
+          600.0,
+          972.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "FIND QUIZNOS button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline (H) is the most prominent text, followed by the product image (P) and the call-to-action (C). The background (O) is minimal and supportive. The message is clear: free cookie with purchase. Product identity is clear via the cookie image and brand name. Action clarity is moderate as the CTA is a button but the offer is well-explained."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [33, 57, 600, 816], \"confidence\": 0.95, \"text_or_description\": \"CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE\"},\n    \"P\": {\"present\": true, \"bbox\": [558, 0, 1000, 551], \"confidence\": 0.98, \"text_or_description\": \"Chocolate chip cookie with bite taken out\"},\n    \"C\": {\"present\": true, \"bbox\": [355, 912, 600, 972], \"confidence\": 0.92, \"text_or_description\": \"FIND QUIZNOS button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline (H) is the most prominent text, followed by the product image (P) and the call-to-action (C). The background (O) is minimal and supportive. The message is clear: free cookie with purchase. Product identity is clear via the cookie image and brand name. Action clarity is moderate as the CTA is a button but the offer is well-explained.\"\n}"
+}

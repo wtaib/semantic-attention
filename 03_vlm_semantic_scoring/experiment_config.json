@@ -1,0 +1,9 @@
+{
+  "primary_model": "Qwen/Qwen3-VL-8B-Instruct",
+  "optional_larger_model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+  "runs_per_prompt": 3,
+  "temperature": 0.35,
+  "top_p": 0.85,
+  "max_new_tokens": 650,
+  "counterfactual_default": false
+}

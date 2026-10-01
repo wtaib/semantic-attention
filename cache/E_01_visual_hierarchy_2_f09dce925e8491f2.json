@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 1,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 2,
+  "seed": 20262423,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.35,
+      "C": 0.25,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          68.0,
+          182.0,
+          440.0,
+          585.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "A 3-DAY SALE EVENT DRESSES START AT"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          458.0,
+          88.0,
+          1000,
+          999.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Two women wearing dresses"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          52.0,
+          905.0,
+          400.0,
+          975.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "SHOP NOW button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline clearly states the sale event and product category (dresses), the product image is prominent and relevant, and the call-to-action is direct and prominent. The layout prioritizes the headline, then the product, then the action, which is standard for effective advertising."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 35, \"C\": 25, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [68, 182, 440, 585], \"confidence\": 0.98, \"text_or_description\": \"A 3-DAY SALE EVENT DRESSES START AT\"},\n    \"P\": {\"present\": true, \"bbox\": [458, 88, 1000, 999], \"confidence\": 0.97, \"text_or_description\": \"Two women wearing dresses\"},\n    \"C\": {\"present\": true, \"bbox\": [52, 905, 400, 975], \"confidence\": 0.99, \"text_or_description\": \"SHOP NOW button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline clearly states the sale event and product category (dresses), the product image is prominent and relevant, and the call-to-action is direct and prominent. The layout prioritizes the headline, then the product, then the action, which is standard for effective advertising.\"\n}"
+}

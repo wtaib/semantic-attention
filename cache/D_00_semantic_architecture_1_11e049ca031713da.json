@@ -1,0 +1,50 @@
+{
+  "condition": "D",
+  "image_id": 0,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 1,
+  "seed": 20261302,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.0,
+      "P": 1.0,
+      "C": 0.0,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "confidence": 1.0,
+        "text_or_description": "A golden circular logo with a cross-like design, resembling a stylized 'X' or 'plus' symbol within a ring."
+      },
+      "C": {
+        "present": false,
+        "bbox": null,
+        "confidence": 0.0,
+        "text_or_description": ""
+      }
+    },
+    "intended_order": [
+      "P"
+    ],
+    "message_clarity": 0.0,
+    "product_identity": 100.0,
+    "action_clarity": 0.0,
+    "rationale_short": "The image contains only a logo or brand symbol with no text or call-to-action. It functions as a product identity marker, not an advertisement with a message or action. Therefore, P is 100% and H/C/O are 0%."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 0, \"P\": 100, \"C\": 0, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 0, 1000, 1000], \"confidence\": 1.0, \"text_or_description\": \"A golden circular logo with a cross-like design, resembling a stylized 'X' or 'plus' symbol within a ring.\"},\n    \"C\": {\"present\": false, \"bbox\": null, \"confidence\": 0.0, \"text_or_description\": \"\"}\n  },\n  \"intended_order\": [\"P\"],\n  \"message_clarity\": 0,\n  \"product_identity\": 100,\n  \"action_clarity\": 0,\n  \"rationale_short\": \"The image contains only a logo or brand symbol with no text or call-to-action. It functions as a product identity marker, not an advertisement with a message or action. Therefore, P is 100% and H/C/O are 0%.\"\n}"
+}

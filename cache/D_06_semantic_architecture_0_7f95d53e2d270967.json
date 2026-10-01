@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 6,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20267301,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.35,
+      "C": 0.25,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          72.0,
+          147.0,
+          615.0,
+          780.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "DEC 4TH NATIONAL COOKIE DAY! FREE OVEN-TOASTED COOKIE with any purchase."
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          608.0,
+          0,
+          1000,
+          968.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two chocolate chip cookies, one partially eaten."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          379.0,
+          802.0,
+          817.0,
+          902.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Red button with white text 'FIND A QUIZNOS' and a mouse cursor icon."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion (free cookie on National Cookie Day), the product (oven-toasted cookie) is visually prominent, and the call-to-action (find a Quiznos) is direct and actionable. The message is unambiguous and the visual hierarchy supports the intended reading order."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 35, \"C\": 25, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [72, 147, 615, 780], \"confidence\": 0.95, \"text_or_description\": \"DEC 4TH NATIONAL COOKIE DAY! FREE OVEN-TOASTED COOKIE with any purchase.\"},\n    \"P\": {\"present\": true, \"bbox\": [608, 0, 1000, 968], \"confidence\": 0.98, \"text_or_description\": \"Two chocolate chip cookies, one partially eaten.\"},\n    \"C\": {\"present\": true, \"bbox\": [379, 802, 817, 902], \"confidence\": 0.97, \"text_or_description\": \"Red button with white text 'FIND A QUIZNOS' and a mouse cursor icon.\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion (free cookie on National Cookie Day), the product (oven-toasted cookie) is visually prominent, and the call-to-action (find a Quiznos) is direct and actionable. The message is unambiguous and the visual hierarchy supports the intended reading order.\"\n}"
+}

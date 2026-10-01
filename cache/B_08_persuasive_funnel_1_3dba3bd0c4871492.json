@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 8,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20269112,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          140.0,
+          0,
+          880.0,
+          160.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Oh yes, it's FREE Tuesday, April 8th between 2-5pm"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          130.0,
+          210.0,
+          970.0,
+          860.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Four iced beverages in branded cups on a wooden tray"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          0,
+          670.0,
+          360.0,
+          970.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Enjoy a FREE freshly brewed medium Iced Tea or Iced Caffes"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline announces a free offer, the product is visually shown with branding, and the call-to-action specifies what to enjoy during the promotion."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [140, 0, 880, 160], \"confidence\": 0.98, \"text_or_description\": \"Oh yes, it's FREE Tuesday, April 8th between 2-5pm\"},\n    \"P\": {\"present\": true, \"bbox\": [130, 210, 970, 860], \"confidence\": 0.95, \"text_or_description\": \"Four iced beverages in branded cups on a wooden tray\"},\n    \"C\": {\"present\": true, \"bbox\": [0, 670, 360, 970], \"confidence\": 0.92, \"text_or_description\": \"Enjoy a FREE freshly brewed medium Iced Tea or Iced Caffes\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline announces a free offer, the product is visually shown with branding, and the call-to-action specifies what to enjoy during the promotion.\"\n}"
+}

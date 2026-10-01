@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 3,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20264422,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.2,
+      "P": 0.3,
+      "C": 0.4,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          35.0,
+          35.0,
+          750.0,
+          95.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          545.0,
+          420.0,
+          999.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "A jar of mineral powder with a brush inside, next to a close-up of a woman's face with makeup."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          455.0,
+          770.0,
+          950.0,
+          900.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "CLAIM FREE SAMPLE | Click HERE"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' grabs attention. The product image (woman with makeup and powder jar) visually reinforces the brand and product. The CTA 'CLAIM FREE SAMPLE' is prominent and clear, driving action. The layout prioritizes message, product, then action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 20, \"P\": 30, \"C\": 40, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [35,35,750,95], \"confidence\": 0.98, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [0,545,420,999], \"confidence\": 0.95, \"text_or_description\": \"A jar of mineral powder with a brush inside, next to a close-up of a woman's face with makeup.\"},\n    \"C\": {\"present\": true, \"bbox\": [455,770,950,900], \"confidence\": 0.97, \"text_or_description\": \"CLAIM FREE SAMPLE | Click HERE\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' grabs attention. The product image (woman with makeup and powder jar) visually reinforces the brand and product. The CTA 'CLAIM FREE SAMPLE' is prominent and clear, driving action. The layout prioritizes message, product, then action.\"\n}"
+}

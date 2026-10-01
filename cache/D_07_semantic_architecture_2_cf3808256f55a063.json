@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 7,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20268303,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          44.0,
+          68.0,
+          550.0,
+          200.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Hardee's BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          235.0,
+          498.0,
+          870.0,
+          800.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Double cheeseburger with pickles, onions, ketchup, and mustard, accompanied by a cup of Coca-Cola and a box of natural-cut fries."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          472.0,
+          213.0,
+          963.0,
+          555.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The headline identifies the product line, the product visuals clearly show the meal components, and the call-to-action specifies the price, making the offer unmistakable."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [44, 68, 550, 200], \"confidence\": 0.95, \"text_or_description\": \"Hardee's BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [235, 498, 870, 800], \"confidence\": 0.98, \"text_or_description\": \"Double cheeseburger with pickles, onions, ketchup, and mustard, accompanied by a cup of Coca-Cola and a box of natural-cut fries.\"},\n    \"C\": {\"present\": true, \"bbox\": [472, 213, 963, 555], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The headline identifies the product line, the product visuals clearly show the meal components, and the call-to-action specifies the price, making the offer unmistakable.\"\n}"
+}

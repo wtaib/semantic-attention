@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 7,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20268313,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          46.0,
+          68.0,
+          551.0,
+          201.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Hardee's BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          235.0,
+          498.0,
+          871.0,
+          803.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Double cheeseburger with pickles, onions, ketchup, and mustard, served with natural-cut fries and a Coca-Cola drink."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          474.0,
+          214.0,
+          963.0,
+          555.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline introduces the meal deal, the product visuals clearly show the included items, and the price tag serves as the direct call-to-action, guiding the viewer to purchase."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [46, 68, 551, 201], \"confidence\": 0.95, \"text_or_description\": \"Hardee's BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [235, 498, 871, 803], \"confidence\": 0.98, \"text_or_description\": \"Double cheeseburger with pickles, onions, ketchup, and mustard, served with natural-cut fries and a Coca-Cola drink.\"},\n    \"C\": {\"present\": true, \"bbox\": [474, 214, 963, 555], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline introduces the meal deal, the product visuals clearly show the included items, and the price tag serves as the direct call-to-action, guiding the viewer to purchase.\"\n}"
+}

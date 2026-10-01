@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 6,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 0,
+  "seed": 20267011,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          36.0,
+          62.0,
+          592.0,
+          530.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          559.0,
+          0,
+          1000,
+          547.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Chocolate chip cookie with bite taken out"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          360.0,
+          910.0,
+          604.0,
+          973.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "FIND QUIZNOS"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline clearly states the promotion and date. The product (cookie) is visually represented. The CTA directs to find the brand. The layout follows a logical funnel: proposition → product → action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [36, 62, 592, 530], \"confidence\": 0.95, \"text_or_description\": \"CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE\"},\n    \"P\": {\"present\": true, \"bbox\": [559, 0, 1000, 547], \"confidence\": 0.92, \"text_or_description\": \"Chocolate chip cookie with bite taken out\"},\n    \"C\": {\"present\": true, \"bbox\": [360, 910, 604, 973], \"confidence\": 0.90, \"text_or_description\": \"FIND QUIZNOS\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline clearly states the promotion and date. The product (cookie) is visually represented. The CTA directs to find the brand. The layout follows a logical funnel: proposition → product → action.\"\n}"
+}

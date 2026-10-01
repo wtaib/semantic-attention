@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 1,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20262021,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.35,
+      "C": 0.2,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          60.0,
+          150.0,
+          420.0,
+          330.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "3 Days of Dress Deals Day Three: Dresses from $15"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          460.0,
+          100.0,
+          990.0,
+          990.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two women wearing dresses, one in orange, one in green."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          30.0,
+          950.0,
+          270.0,
+          990.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "SHOP NOW arrow button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline clearly states the promotion and price, the product image (dresses) is central and visually dominant, and the CTA is placed at the bottom for easy access. The layout prioritizes the offer and product first, then directs to action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 35, \"C\": 20, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [60, 150, 420, 330], \"confidence\": 0.95, \"text_or_description\": \"3 Days of Dress Deals Day Three: Dresses from $15\"},\n    \"P\": {\"present\": true, \"bbox\": [460, 100, 990, 990], \"confidence\": 0.98, \"text_or_description\": \"Two women wearing dresses, one in orange, one in green.\"},\n    \"C\": {\"present\": true, \"bbox\": [30, 950, 270, 990], \"confidence\": 0.92, \"text_or_description\": \"SHOP NOW arrow button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline clearly states the promotion and price, the product image (dresses) is central and visually dominant, and the CTA is placed at the bottom for easy access. The layout prioritizes the offer and product first, then directs to action.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 2,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20263003,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.35,
+      "C": 0.2,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          200.0,
+          100.0,
+          700.0,
+          375.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "fab MEANS FIRST for early access to savings"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          0,
+          0,
+          999.0,
+          999.0
+        ],
+        "confidence": 0.9,
+        "text_or_description": "Various bareMinerals skincare and makeup products arranged around the central text."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          380.0,
+          730.0,
+          610.0,
+          775.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "SHOP NOW button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion, the surrounding products establish brand identity, and the call-to-action directs the user to shop. The message is direct and the action is unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 35, \"C\": 20, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [200, 100, 700, 375], \"confidence\": 0.95, \"text_or_description\": \"fab MEANS FIRST for early access to savings\"},\n    \"P\": {\"present\": true, \"bbox\": [0, 0, 999, 999], \"confidence\": 0.9, \"text_or_description\": \"Various bareMinerals skincare and makeup products arranged around the central text.\"},\n    \"C\": {\"present\": true, \"bbox\": [380, 730, 610, 775], \"confidence\": 0.95, \"text_or_description\": \"SHOP NOW button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion, the surrounding products establish brand identity, and the call-to-action directs the user to shop. The message is direct and the action is unambiguous.\"\n}"
+}

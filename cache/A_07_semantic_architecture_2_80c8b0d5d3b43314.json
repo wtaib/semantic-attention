@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 7,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20268003,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.5,
+      "C": 0.2,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          466.0,
+          51.0,
+          955.0,
+          350.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          39.0,
+          155.0,
+          999.0,
+          970.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "A composite image showing a hamburger, fries, a hot dog, and a soda cup."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          598.0,
+          603.0,
+          925.0,
+          940.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline 'BIG BAG LUNCH' clearly states the offer. The product visuals (hamburger, fries, hot dog, soda) are central and detailed. The call-to-action '$5 Plus Tax' is prominent and unambiguous, driving the purchase decision."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 50, \"C\": 20, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [466, 51, 955, 350], \"confidence\": 0.98, \"text_or_description\": \"BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [39, 155, 999, 970], \"confidence\": 0.99, \"text_or_description\": \"A composite image showing a hamburger, fries, a hot dog, and a soda cup.\"},\n    \"C\": {\"present\": true, \"bbox\": [598, 603, 925, 940], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline 'BIG BAG LUNCH' clearly states the offer. The product visuals (hamburger, fries, hot dog, soda) are central and detailed. The call-to-action '$5 Plus Tax' is prominent and unambiguous, driving the purchase decision.\"\n}"
+}

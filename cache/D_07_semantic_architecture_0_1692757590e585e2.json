@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 7,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20268301,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          44.0,
+          68.0,
+          552.0,
+          200.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Hardee's BIG BAG LUNCH"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          234.0,
+          497.0,
+          870.0,
+          802.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Double cheeseburger with pickles, onions, ketchup, and mustard, served with natural-cut fries and a Coca-Cola drink."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          472.0,
+          213.0,
+          963.0,
+          556.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The advertisement clearly presents the Hardee's Big Bag Lunch as the product, highlights its price as the key selling point, and uses the brand logo to establish identity. The message is direct and unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [44, 68, 552, 200], \"confidence\": 0.95, \"text_or_description\": \"Hardee's BIG BAG LUNCH\"},\n    \"P\": {\"present\": true, \"bbox\": [234, 497, 870, 802], \"confidence\": 0.98, \"text_or_description\": \"Double cheeseburger with pickles, onions, ketchup, and mustard, served with natural-cut fries and a Coca-Cola drink.\"},\n    \"C\": {\"present\": true, \"bbox\": [472, 213, 963, 556], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The advertisement clearly presents the Hardee's Big Bag Lunch as the product, highlights its price as the key selling point, and uses the brand logo to establish identity. The message is direct and unambiguous.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 3,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 1,
+  "seed": 20264112,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.3,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          34.0,
+          33.0,
+          750.0,
+          88.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          11.0,
+          613.0,
+          421.0,
+          982.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Powder compact with brush"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          478.0,
+          745.0,
+          935.0,
+          932.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Click HERE button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 8.0,
+    "product_identity": 7.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' introduces the proposition. The product image (powder compact) identifies the brand's offering. The 'Click HERE' button clearly directs the user to take action. The message is clear, product identity is identifiable, and action is unambiguous."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 30, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [34,33,750,88], \"confidence\": 0.95, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [11,613,421,982], \"confidence\": 0.98, \"text_or_description\": \"Powder compact with brush\"},\n    \"C\": {\"present\": true, \"bbox\": [478,745,935,932], \"confidence\": 0.97, \"text_or_description\": \"Click HERE button\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 8,\n  \"product_identity\": 7,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' introduces the proposition. The product image (powder compact) identifies the brand's offering. The 'Click HERE' button clearly directs the user to take action. The message is clear, product identity is identifiable, and action is unambiguous.\"\n}"
+}

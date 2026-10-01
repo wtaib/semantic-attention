@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 5,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20266021,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.25,
+      "C": 0.35,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          210.0,
+          347.0,
+          837.0,
+          532.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "MYSTERY SHOPPER Promo"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          195.0,
+          54.0,
+          642.0,
+          333.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Ovaltine logo with wheat imagery"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          621.0,
+          810.0,
+          887.0,
+          875.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "CLICK HERE button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 8.0,
+    "product_identity": 9.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline 'MYSTERY SHOPPER Promo' is the most prominent element, followed by the brand logo (P) and the call-to-action button (C). The visual hierarchy clearly prioritizes the promotion's name, the brand, and the action to take."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 25, \"C\": 35, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [210, 347, 837, 532], \"confidence\": 0.95, \"text_or_description\": \"MYSTERY SHOPPER Promo\"},\n    \"P\": {\"present\": true, \"bbox\": [195, 54, 642, 333], \"confidence\": 0.98, \"text_or_description\": \"Ovaltine logo with wheat imagery\"},\n    \"C\": {\"present\": true, \"bbox\": [621, 810, 887, 875], \"confidence\": 0.92, \"text_or_description\": \"CLICK HERE button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 8,\n  \"product_identity\": 9,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline 'MYSTERY SHOPPER Promo' is the most prominent element, followed by the brand logo (P) and the call-to-action button (C). The visual hierarchy clearly prioritizes the promotion's name, the brand, and the action to take.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "E",
+  "image_id": 6,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 0,
+  "seed": 20267411,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.3,
+      "C": 0.3,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          43.0,
+          65.0,
+          595.0,
+          290.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          565.0,
+          0,
+          1000,
+          545.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Chocolate chip cookie with bite taken out"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          330.0,
+          895.0,
+          615.0,
+          978.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "FIND QUIZINOS button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline clearly states the promotion (free cookie on National Cookie Day), the product is visually represented by the cookie image, and the CTA directs users to find Quiznos locations. The message is direct and the hierarchy follows the persuasive funnel: proposition -> product -> action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 30, \"C\": 30, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [43, 65, 595, 290], \"confidence\": 0.95, \"text_or_description\": \"CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a FREE OVEN-TOASTED COOKIE\"},\n    \"P\": {\"present\": true, \"bbox\": [565, 0, 1000, 545], \"confidence\": 0.98, \"text_or_description\": \"Chocolate chip cookie with bite taken out\"},\n    \"C\": {\"present\": true, \"bbox\": [330, 895, 615, 978], \"confidence\": 0.97, \"text_or_description\": \"FIND QUIZINOS button\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline clearly states the promotion (free cookie on National Cookie Day), the product is visually represented by the cookie image, and the CTA directs users to find Quiznos locations. The message is direct and the hierarchy follows the persuasive funnel: proposition -> product -> action.\"\n}"
+}

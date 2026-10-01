@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 1,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 2,
+  "seed": 20262013,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          63.0,
+          151.0,
+          422.0,
+          340.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "3 Days of Dress Deals Day Three: Dresses from $15"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          460.0,
+          105.0,
+          994.0,
+          994.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two women modeling dresses, one in orange, one in green."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          35.0,
+          955.0,
+          269.0,
+          994.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "SHOP NOW arrow button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline clearly states the deal and day, the product is visually identified through the models and dress imagery, and the call-to-action is explicit with 'SHOP NOW'."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [63, 151, 422, 340], \"confidence\": 0.95, \"text_or_description\": \"3 Days of Dress Deals Day Three: Dresses from $15\"},\n    \"P\": {\"present\": true, \"bbox\": [460, 105, 994, 994], \"confidence\": 0.98, \"text_or_description\": \"Two women modeling dresses, one in orange, one in green.\"},\n    \"C\": {\"present\": true, \"bbox\": [35, 955, 269, 994], \"confidence\": 0.97, \"text_or_description\": \"SHOP NOW arrow button\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline clearly states the deal and day, the product is visually identified through the models and dress imagery, and the call-to-action is explicit with 'SHOP NOW'.\"\n}"
+}

@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 3,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 0,
+  "seed": 20264311,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.3,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          33.0,
+          26.0,
+          690.0,
+          72.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          18.0,
+          607.0,
+          455.0,
+          935.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "A jar of mineral powder with a brush, representing the product."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          491.0,
+          650.0,
+          936.0,
+          819.0
+        ],
+        "confidence": 0.99,
+        "text_or_description": "A blue button with 'CLICK HERE' and a gold banner above it saying 'TRY IT FREE'."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 100.0,
+    "product_identity": 100.0,
+    "action_clarity": 100.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' introduces the proposition. The product (mineral powder) is visually presented. The clear CTA 'CLICK HERE' drives action. The sequence is logical: proposition -> product -> action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 30, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [33,26,690,72], \"confidence\": 0.99, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [18,607,455,935], \"confidence\": 0.99, \"text_or_description\": \"A jar of mineral powder with a brush, representing the product.\"},\n    \"C\": {\"present\": true, \"bbox\": [491,650,936,819], \"confidence\": 0.99, \"text_or_description\": \"A blue button with 'CLICK HERE' and a gold banner above it saying 'TRY IT FREE'.\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 100,\n  \"product_identity\": 100,\n  \"action_clarity\": 100,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' introduces the proposition. The product (mineral powder) is visually presented. The clear CTA 'CLICK HERE' drives action. The sequence is logical: proposition -> product -> action.\"\n}"
+}

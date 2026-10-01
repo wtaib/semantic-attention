@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 3,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20264022,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.3,
+      "C": 0.4,
+      "O": 0.0
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          25.0,
+          25.0,
+          775.0,
+          95.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          10.0,
+          615.0,
+          415.0,
+          970.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Powder compact with brush"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          485.0,
+          740.0,
+          915.0,
+          920.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "Click HERE button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 9.0,
+    "rationale_short": "The headline grabs attention, the product image is central, and the CTA is prominently placed with high contrast for immediate action."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 30, \"C\": 40, \"O\": 0},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [25,25,775,95], \"confidence\": 0.95, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [10,615,415,970], \"confidence\": 0.98, \"text_or_description\": \"Powder compact with brush\"},\n    \"C\": {\"present\": true, \"bbox\": [485,740,915,920], \"confidence\": 0.97, \"text_or_description\": \"Click HERE button\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 9,\n  \"rationale_short\": \"The headline grabs attention, the product image is central, and the CTA is prominently placed with high contrast for immediate action.\"\n}"
+}

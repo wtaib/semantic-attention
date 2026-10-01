@@ -1,0 +1,4 @@
+balance,positive_direction,negative_direction
+B1_semantic_vs_other,Relatively more gaze to Headline+Product+CTA than Other/background,Relatively more gaze to Other/background
+B2_CTA_vs_HP,Relatively more CTA gaze than Headline+Product,Relatively more Headline+Product gaze than CTA
+B3_H_vs_P,Relatively more Headline gaze than Product,Relatively more Product gaze than Headline

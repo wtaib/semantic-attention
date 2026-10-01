@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 5,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 1,
+  "seed": 20266302,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          275.0,
+          287.0,
+          810.0,
+          412.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "MYSTERY SHOPPER Promo"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          11.0,
+          445.0,
+          440.0,
+          773.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Gift boxes overflowing with cash, smartphone, and game controller"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          465.0,
+          590.0,
+          975.0,
+          673.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "CLICK HERE TO LEARN MORE!"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline 'MYSTERY SHOPPER Promo' clearly states the offer. The product visual (gift boxes with prizes) reinforces the reward. The call-to-action 'CLICK HERE TO LEARN MORE!' is explicit and prominent."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [275, 287, 810, 412], \"confidence\": 0.95, \"text_or_description\": \"MYSTERY SHOPPER Promo\"},\n    \"P\": {\"present\": true, \"bbox\": [11, 445, 440, 773], \"confidence\": 0.98, \"text_or_description\": \"Gift boxes overflowing with cash, smartphone, and game controller\"},\n    \"C\": {\"present\": true, \"bbox\": [465, 590, 975, 673], \"confidence\": 0.97, \"text_or_description\": \"CLICK HERE TO LEARN MORE!\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline 'MYSTERY SHOPPER Promo' clearly states the offer. The product visual (gift boxes with prizes) reinforces the reward. The call-to-action 'CLICK HERE TO LEARN MORE!' is explicit and prominent.\"\n}"
+}

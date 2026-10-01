@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 3,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 1,
+  "seed": 20264102,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          30.0,
+          30.0,
+          750.0,
+          90.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "BETTER THAN BARE"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          10.0,
+          610.0,
+          420.0,
+          980.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Powder compact with brush"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          475.0,
+          745.0,
+          935.0,
+          930.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Click HERE button"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 85.0,
+    "product_identity": 75.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline 'BETTER THAN BARE' introduces the benefit. The product image (powder compact) visually represents the item. The 'Click HERE' button clearly directs action. The layout prioritizes these elements in order."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [30,30,750,90], \"confidence\": 0.95, \"text_or_description\": \"BETTER THAN BARE\"},\n    \"P\": {\"present\": true, \"bbox\": [10,610,420,980], \"confidence\": 0.95, \"text_or_description\": \"Powder compact with brush\"},\n    \"C\": {\"present\": true, \"bbox\": [475,745,935,930], \"confidence\": 0.95, \"text_or_description\": \"Click HERE button\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 85,\n  \"product_identity\": 75,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline 'BETTER THAN BARE' introduces the benefit. The product image (powder compact) visually represents the item. The 'Click HERE' button clearly directs action. The layout prioritizes these elements in order.\"\n}"
+}

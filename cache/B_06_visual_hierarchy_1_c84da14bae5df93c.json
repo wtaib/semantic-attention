@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 6,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 1,
+  "seed": 20267122,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.4,
+      "P": 0.3,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          40.0,
+          60.0,
+          600.0,
+          300.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          560.0,
+          0,
+          1000,
+          540.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Oven-toasted cookie with chocolate chunks"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          360.0,
+          900.0,
+          600.0,
+          970.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "FIND QUIZINOS"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline announces the promotion and date, the product image visually reinforces the offer, and the CTA directs users to find the brand. The hierarchy is clear and follows standard promotional design."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 40, \"P\": 30, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [40, 60, 600, 300], \"confidence\": 0.95, \"text_or_description\": \"CELEBRATE NATIONAL COOKIE DAY DEC 4TH with a\"},\n    \"P\": {\"present\": true, \"bbox\": [560, 0, 1000, 540], \"confidence\": 0.95, \"text_or_description\": \"Oven-toasted cookie with chocolate chunks\"},\n    \"C\": {\"present\": true, \"bbox\": [360, 900, 600, 970], \"confidence\": 0.95, \"text_or_description\": \"FIND QUIZINOS\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline announces the promotion and date, the product image visually reinforces the offer, and the CTA directs users to find the brand. The hierarchy is clear and follows standard promotional design.\"\n}"
+}

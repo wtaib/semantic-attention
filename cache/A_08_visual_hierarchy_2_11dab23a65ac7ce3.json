@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 8,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 2,
+  "seed": 20269023,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          140.0,
+          10.0,
+          870.0,
+          168.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Oh yes, it's FREE Tuesday, April 8th between 2-5pm"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          138.0,
+          225.0,
+          955.0,
+          870.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Four iced beverages on a wooden tray, branded with 'au bon pain cafe bakery'"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          10.0,
+          675.0,
+          368.0,
+          970.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "Red circular badge: 'Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee'"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 8.0,
+    "action_clarity": 7.0,
+    "rationale_short": "The headline grabs attention with 'FREE' and the date/time. The product (drinks) is visually prominent. The call-to-action (free offer) is in a distinct badge. Background context is minimal and supportive."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [140, 10, 870, 168], \"confidence\": 0.95, \"text_or_description\": \"Oh yes, it's FREE Tuesday, April 8th between 2-5pm\"},\n    \"P\": {\"present\": true, \"bbox\": [138, 225, 955, 870], \"confidence\": 0.98, \"text_or_description\": \"Four iced beverages on a wooden tray, branded with 'au bon pain cafe bakery'\"},\n    \"C\": {\"present\": true, \"bbox\": [10, 675, 368, 970], \"confidence\": 0.92, \"text_or_description\": \"Red circular badge: 'Enjoy a FREE freshly brewed medium Iced Tea or Iced Coffee'\"},\n    \"O\": {\"present\": true, \"bbox\": [680, 955, 960, 990], \"confidence\": 0.85, \"text_or_description\": \"Text at bottom right: 'At Participating Cafés'\"},\n    \"O\": {\"present\": true, \"bbox\": [0, 185, 1000, 990], \"confidence\": 0.9, \"text_or_description\": \"Background image of wooden table and cloth\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 8,\n  \"action_clarity\": 7,\n  \"rationale_short\": \"The headline grabs attention with 'FREE' and the date/time. The product (drinks) is visually prominent. The call-to-action (free offer) is in a distinct badge. Background context is minimal and supportive.\"\n}"
+}

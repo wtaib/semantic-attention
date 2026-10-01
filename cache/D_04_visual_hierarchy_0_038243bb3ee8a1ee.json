@@ -1,0 +1,62 @@
+{
+  "condition": "D",
+  "image_id": 4,
+  "prompt_name": "visual_hierarchy",
+  "run_idx": 0,
+  "seed": 20265321,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.25,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          67.0,
+          52.0,
+          820.0,
+          280.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Free coffee day NOV.13"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          103.0,
+          285.0,
+          528.0,
+          680.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "A black Bruegger's Bagels coffee cup with a bagel roll beside it."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          125.0,
+          735.0,
+          870.0,
+          890.0
+        ],
+        "confidence": 0.96,
+        "text_or_description": "JOIN US FOR A FREE CUP OF COFFEE BEFORE 2 PM ON THURSDAY, NOVEMBER 13. ONE FREE COFFEE PER GUEST."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 9.0,
+    "product_identity": 9.0,
+    "action_clarity": 8.0,
+    "rationale_short": "The headline 'Free coffee day NOV.13' is prominent at the top. The product (coffee cup and bagel) is centrally featured. The call-to-action with time and conditions is clearly stated at the bottom. The hierarchy is logical for a promotional offer."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 25, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [67,52,820,280], \"confidence\": 0.98, \"text_or_description\": \"Free coffee day NOV.13\"},\n    \"P\": {\"present\": true, \"bbox\": [103,285,528,680], \"confidence\": 0.97, \"text_or_description\": \"A black Bruegger's Bagels coffee cup with a bagel roll beside it.\"},\n    \"C\": {\"present\": true, \"bbox\": [125,735,870,890], \"confidence\": 0.96, \"text_or_description\": \"JOIN US FOR A FREE CUP OF COFFEE BEFORE 2 PM ON THURSDAY, NOVEMBER 13. ONE FREE COFFEE PER GUEST.\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 9,\n  \"product_identity\": 9,\n  \"action_clarity\": 8,\n  \"rationale_short\": \"The headline 'Free coffee day NOV.13' is prominent at the top. The product (coffee cup and bagel) is centrally featured. The call-to-action with time and conditions is clearly stated at the bottom. The hierarchy is logical for a promotional offer.\"\n}"
+}

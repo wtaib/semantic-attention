@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 1,
+  "prompt_name": "persuasive_funnel",
+  "run_idx": 0,
+  "seed": 20262011,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          62.0,
+          156.0,
+          424.0,
+          340.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "3 Days of Dress Deals Day Three: Dresses from $15"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          462.0,
+          107.0,
+          995.0,
+          990.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Two women modeling dresses, one in orange and one in green"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          38.0,
+          958.0,
+          272.0,
+          990.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "SHOP NOW"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 90.0,
+    "product_identity": 95.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The headline clearly states the promotion and price point, the product is visually identified through the models and dresses, and the call-to-action directs the user to shop now."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [62, 156, 424, 340], \"confidence\": 0.95, \"text_or_description\": \"3 Days of Dress Deals Day Three: Dresses from $15\"},\n    \"P\": {\"present\": true, \"bbox\": [462, 107, 995, 990], \"confidence\": 0.98, \"text_or_description\": \"Two women modeling dresses, one in orange and one in green\"},\n    \"C\": {\"present\": true, \"bbox\": [38, 958, 272, 990], \"confidence\": 0.97, \"text_or_description\": \"SHOP NOW\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 90,\n  \"product_identity\": 95,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The headline clearly states the promotion and price point, the product is visually identified through the models and dresses, and the call-to-action directs the user to shop now.\"\n}"
+}

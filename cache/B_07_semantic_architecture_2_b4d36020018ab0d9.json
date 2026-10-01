@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 7,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 2,
+  "seed": 20268103,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          463.0,
+          64.0,
+          965.0,
+          270.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "HARDEES. WHISLERS. ISYHANCH LUGSIRLD CX.S!"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          406.0,
+          372.0,
+          984.0,
+          635.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Double cheeseburger with sesame bun, french fries in a paper container, chili dog with onions and mustard, and a Coca-Cola cup."
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          585.0,
+          620.0,
+          925.0,
+          950.0
+        ],
+        "confidence": 0.97,
+        "text_or_description": "ONLY $5 Plus Tax"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 60.0,
+    "product_identity": 85.0,
+    "action_clarity": 70.0,
+    "rationale_short": "The headline is garbled and non-semantic, the product visuals are clear but the text is corrupted, and the call-to-action is partially legible but the price is obscured by the product image."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [463, 64, 965, 270], \"confidence\": 0.95, \"text_or_description\": \"HARDEES. WHISLERS. ISYHANCH LUGSIRLD CX.S!\"},\n    \"P\": {\"present\": true, \"bbox\": [406, 372, 984, 635], \"confidence\": 0.98, \"text_or_description\": \"Double cheeseburger with sesame bun, french fries in a paper container, chili dog with onions and mustard, and a Coca-Cola cup.\"},\n    \"C\": {\"present\": true, \"bbox\": [585, 620, 925, 950], \"confidence\": 0.97, \"text_or_description\": \"ONLY $5 Plus Tax\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 60,\n  \"product_identity\": 85,\n  \"action_clarity\": 70,\n  \"rationale_short\": \"The headline is garbled and non-semantic, the product visuals are clear but the text is corrupted, and the call-to-action is partially legible but the price is obscured by the product image.\"\n}"
+}

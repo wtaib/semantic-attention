@@ -1,0 +1,62 @@
+{
+  "condition": "A",
+  "image_id": 4,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 0,
+  "seed": 20265001,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.25,
+      "O": 0.05
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          100.0,
+          50.0,
+          850.0,
+          350.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "Free coffee day NOV.13"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          110.0,
+          290.0,
+          540.0,
+          825.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Black Bruegger's Bagels coffee cup with cream-filled bagel in background"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          420.0,
+          780.0,
+          910.0,
+          910.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "JOIN US FOR A FREE CUP OF COFFEE BEFORE 2 PM ON THURSDAY, NOVEMBER 13. ONE FREE COFFEE PER GUEST."
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 95.0,
+    "product_identity": 90.0,
+    "action_clarity": 90.0,
+    "rationale_short": "The headline clearly states the promotion, the product (coffee cup) is the central visual, and the call-to-action specifies the time, date, and terms. The message is unambiguous and the brand is clearly identified."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 25, \"O\": 5},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [100, 50, 850, 350], \"confidence\": 0.95, \"text_or_description\": \"Free coffee day NOV.13\"},\n    \"P\": {\"present\": true, \"bbox\": [110, 290, 540, 825], \"confidence\": 0.98, \"text_or_description\": \"Black Bruegger's Bagels coffee cup with cream-filled bagel in background\"},\n    \"C\": {\"present\": true, \"bbox\": [420, 780, 910, 910], \"confidence\": 0.92, \"text_or_description\": \"JOIN US FOR A FREE CUP OF COFFEE BEFORE 2 PM ON THURSDAY, NOVEMBER 13. ONE FREE COFFEE PER GUEST.\"}\n  },\n  \"intended_order\": [\"H\",\"P\",\"C\"],\n  \"message_clarity\": 95,\n  \"product_identity\": 90,\n  \"action_clarity\": 90,\n  \"rationale_short\": \"The headline clearly states the promotion, the product (coffee cup) is the central visual, and the call-to-action specifies the time, date, and terms. The message is unambiguous and the brand is clearly identified.\"\n}"
+}

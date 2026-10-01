@@ -1,0 +1,62 @@
+{
+  "condition": "B",
+  "image_id": 5,
+  "prompt_name": "semantic_architecture",
+  "run_idx": 1,
+  "seed": 20266102,
+  "status": "OK",
+  "error": "",
+  "clean": {
+    "budget": {
+      "H": 0.3,
+      "P": 0.4,
+      "C": 0.2,
+      "O": 0.1
+    },
+    "elements": {
+      "H": {
+        "present": true,
+        "bbox": [
+          210.0,
+          350.0,
+          830.0,
+          540.0
+        ],
+        "confidence": 0.95,
+        "text_or_description": "MYSTERY SHOPPER Promo"
+      },
+      "P": {
+        "present": true,
+        "bbox": [
+          210.0,
+          48.0,
+          640.0,
+          325.0
+        ],
+        "confidence": 0.98,
+        "text_or_description": "Ovaltine logo with wheat imagery and product packages"
+      },
+      "C": {
+        "present": true,
+        "bbox": [
+          620.0,
+          815.0,
+          890.0,
+          870.0
+        ],
+        "confidence": 0.92,
+        "text_or_description": "CLICK HERE button with 'For more information' text"
+      }
+    },
+    "intended_order": [
+      "H",
+      "P",
+      "C"
+    ],
+    "message_clarity": 90.0,
+    "product_identity": 95.0,
+    "action_clarity": 85.0,
+    "rationale_short": "The headline 'MYSTERY SHOPPER Promo' is the primary message. The Ovaltine brand and product visuals establish product identity. The 'CLICK HERE' CTA is the clear action. The layout supports this hierarchy."
+  },
+  "raw_text": "{\n  \"budget\": {\"H\": 30, \"P\": 40, \"C\": 20, \"O\": 10},\n  \"elements\": {\n    \"H\": {\"present\": true, \"bbox\": [210, 350, 830, 540], \"confidence\": 0.95, \"text_or_description\": \"MYSTERY SHOPPER Promo\"},\n    \"P\": {\"present\": true, \"bbox\": [210, 48, 640, 325], \"confidence\": 0.98, \"text_or_description\": \"Ovaltine logo with wheat imagery and product packages\"},\n    \"C\": {\"present\": true, \"bbox\": [620, 815, 890, 870], \"confidence\": 0.92, \"text_or_description\": \"CLICK HERE button with 'For more information' text\"}\n  },\n  \"intended_order\": [\"H\", \"P\", \"C\"],\n  \"message_clarity\": 90,\n  \"product_identity\": 95,\n  \"action_clarity\": 85,\n  \"rationale_short\": \"The headline 'MYSTERY SHOPPER Promo' is the primary message. The Ovaltine brand and product visuals establish product identity. The 'CLICK HERE' CTA is the clear action. The layout supports this hierarchy.\"\n}"
+}
